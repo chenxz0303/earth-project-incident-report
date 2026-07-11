@@ -132,6 +132,16 @@ if (!(await exists("docs/第一卷前十章场景卡.md"))) {
     fail(`前十章场景卡编号必须从 001 连续到 010，当前识别到 ${sceneChapterNumbers.length} 章`);
   }
 }
+if (!(await exists("docs/第一卷第十一至二十五章场景卡.md"))) {
+  fail("缺少第一卷第 11—25 章场景卡");
+} else {
+  const laterSceneCards = await readFile(path.join(root, "docs/第一卷第十一至二十五章场景卡.md"), "utf8");
+  const laterSceneNumbers = [...laterSceneCards.matchAll(/^## 第 (\d{3}) 章：/gm)].map((match) => Number(match[1]));
+  const expectedLaterSceneNumbers = Array.from({ length: 15 }, (_, index) => index + 11);
+  if (JSON.stringify(laterSceneNumbers) !== JSON.stringify(expectedLaterSceneNumbers)) {
+    fail(`第一卷后 15 章场景卡编号必须从 011 连续到 025，当前识别到 ${laterSceneNumbers.length} 章`);
+  }
+}
 
 if (errors.length) {
   console.error("项目检查失败：");
