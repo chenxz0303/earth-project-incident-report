@@ -37,6 +37,14 @@ if (book) {
   if (!["planning", "serializing", "complete"].includes(book.publicationStage)) {
     fail("data/book.json 的 publicationStage 必须是 planning、serializing 或 complete");
   }
+  const expectedStatusByStage = {
+    planning: "筹备中",
+    serializing: "连载中",
+    complete: "已完结",
+  };
+  if (book.status !== expectedStatusByStage[book.publicationStage]) {
+    fail("data/book.json 的 status 与 publicationStage 不一致");
+  }
   if (book.title !== "地球项目事故调查报告") fail("书名与项目约定不一致");
   if (book.author !== "陈默项目组") fail("作者显示名与项目约定不一致");
   if (!(await exists(book.catalogUrl))) fail(`书籍信息引用的目录不存在：${book.catalogUrl}`);
@@ -75,6 +83,27 @@ if (catalog) {
       if (content.id !== chapter.id) fail(`${chapter.contentUrl} 的 id 与目录不一致`);
       if (content.title !== chapter.title) fail(`${chapter.contentUrl} 的标题与目录不一致`);
       if (!Array.isArray(content.content) || content.content.length === 0) fail(`${chapter.contentUrl} 没有正文段落数组`);
+      if (chapter.isTest) {
+        if (content.status !== "non-canon" || content.isTest !== true) fail(`${chapter.contentUrl} 的测试章状态错误`);
+      } else {
+        if (content.status !== "canon" || content.isTest !== false) fail(`${chapter.contentUrl} 的正式章状态错误`);
+        const chapterMatch = chapter.id.match(/^volume-(\d{2})\/chapter-(\d{3})$/);
+        if (!chapterMatch) {
+          fail(`正式章节 id 格式错误：${chapter.id}`);
+        } else {
+          const chapterNumber = Number(chapterMatch[2]);
+          if (content.chapterNumber !== chapterNumber) fail(`${chapter.contentUrl} 的 chapterNumber 与 id 不一致`);
+          if (!chapter.title.startsWith(`第${chapterMatch[2]}章：`)) fail(`${chapter.contentUrl} 的正式标题缺少三位章节编号`);
+        }
+        const fullText = content.content.join("");
+        const hanCharacters = [...fullText.matchAll(/[\p{Script=Han}]/gu)].length;
+        if (hanCharacters < 2800 || hanCharacters > 4500) {
+          fail(`${chapter.contentUrl} 的正文汉字数为 ${hanCharacters}，超出单章允许范围 2800—4500`);
+        }
+        if (!Number.isInteger(chapter.wordCount) || Math.abs(chapter.wordCount - hanCharacters) / hanCharacters > 0.15) {
+          fail(`${chapter.contentUrl} 的目录 wordCount 与正文汉字数偏差超过 15%`);
+        }
+      }
     }
 
     const testChapters = catalog.chapters.filter((chapter) => chapter.isTest);

@@ -6,18 +6,18 @@
     {
       "id": "volume-01",
       "title": "第一卷（暂定）：现实参数异常",
-      "summary": "卷名与正式章节尚未定稿。当前仅保留一篇可随时删除的联调测试章。",
+      "summary": "陈默从一次材料参数异常开始，逐步发现现实底层规则正在失效，并被卷入一场关系地球存亡的外部事故调查。",
       "chapters": [
         {
           "id": "volume-01/chapter-001",
-          "title": "功能测试章：工单已创建，地球暂未删除",
+          "title": "第001章：周一的杨氏模量",
           "volumeId": "volume-01",
           "volumeTitle": "第一卷（暂定）：现实参数异常",
           "contentUrl": "chapters/volume-01/chapter-001.json",
           "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-001.json",
           "pageUrl": "reader.html?chapter=volume-01/chapter-001",
-          "isTest": true,
-          "wordCount": 258
+          "isTest": false,
+          "wordCount": 3340
         }
       ]
     }
@@ -25,14 +25,14 @@
   "chapters": [
     {
       "id": "volume-01/chapter-001",
-      "title": "功能测试章：工单已创建，地球暂未删除",
+      "title": "第001章：周一的杨氏模量",
       "volumeId": "volume-01",
       "volumeTitle": "第一卷（暂定）：现实参数异常",
       "contentUrl": "chapters/volume-01/chapter-001.json",
       "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-001.json",
       "pageUrl": "reader.html?chapter=volume-01/chapter-001",
-      "isTest": true,
-      "wordCount": 258
+      "isTest": false,
+      "wordCount": 3340
     }
   ]
 }
