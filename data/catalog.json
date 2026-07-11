@@ -128,6 +128,61 @@
           "pageUrl": "reader.html?chapter=volume-01/chapter-011",
           "isTest": false,
           "wordCount": 3625
+        },
+        {
+          "id": "volume-01/chapter-012",
+          "title": "第012章：日报不能写外星人",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-012.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-012.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-012",
+          "isTest": false,
+          "wordCount": 3430
+        },
+        {
+          "id": "volume-01/chapter-013",
+          "title": "第013章：城市异常等值线",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-013.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-013.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-013",
+          "isTest": false,
+          "wordCount": 3644
+        },
+        {
+          "id": "volume-01/chapter-014",
+          "title": "第014章：领导只想要一个结论",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-014.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-014.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-014",
+          "isTest": false,
+          "wordCount": 3392
+        },
+        {
+          "id": "volume-01/chapter-015",
+          "title": "第015章：桥梁提前进入共振",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-015.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-015.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-015",
+          "isTest": false,
+          "wordCount": 3846
+        },
+        {
+          "id": "volume-01/chapter-016",
+          "title": "第016章：完全一样的裂纹",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-016.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-016.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-016",
+          "isTest": false,
+          "wordCount": 3440
         }
       ]
     }
@@ -253,6 +308,61 @@
       "pageUrl": "reader.html?chapter=volume-01/chapter-011",
       "isTest": false,
       "wordCount": 3625
+    },
+    {
+      "id": "volume-01/chapter-012",
+      "title": "第012章：日报不能写外星人",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-012.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-012.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-012",
+      "isTest": false,
+      "wordCount": 3430
+    },
+    {
+      "id": "volume-01/chapter-013",
+      "title": "第013章：城市异常等值线",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-013.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-013.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-013",
+      "isTest": false,
+      "wordCount": 3644
+    },
+    {
+      "id": "volume-01/chapter-014",
+      "title": "第014章：领导只想要一个结论",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-014.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-014.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-014",
+      "isTest": false,
+      "wordCount": 3392
+    },
+    {
+      "id": "volume-01/chapter-015",
+      "title": "第015章：桥梁提前进入共振",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-015.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-015.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-015",
+      "isTest": false,
+      "wordCount": 3846
+    },
+    {
+      "id": "volume-01/chapter-016",
+      "title": "第016章：完全一样的裂纹",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-016.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-016.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-016",
+      "isTest": false,
+      "wordCount": 3440
     }
   ]
 }
