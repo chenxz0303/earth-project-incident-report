@@ -8,13 +8,18 @@
   "status": "连载中",
   "targetWords": "约50万字",
   "description": "地球是高等文明运行的社会仿真项目。一艘外星歼星舰试射时击穿了地球底层参数，普通仿真工程师陈默意外获得有限的现实参数修改权限，并被要求协助调查事故、修复异常、写出一份既不撒谎又能保住地球的事故报告。",
-  "tags": ["科幻", "职场喜剧", "悬疑调查", "轻松爽文"],
+  "tags": [
+    "科幻",
+    "职场喜剧",
+    "悬疑调查",
+    "轻松爽文"
+  ],
   "cover": "",
   "bookInfoUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/data/book.json",
   "catalogUrl": "data/catalog.json",
   "catalogSourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/data/catalog.json",
-  "latestChapterTitle": "第016章：完全一样的裂纹",
-  "latestChapterUrl": "chapters/volume-01/chapter-016.json",
+  "latestChapterTitle": "第021章：谁批准了重力",
+  "latestChapterUrl": "chapters/volume-01/chapter-021.json",
   "websiteUrl": "https://chenxz0303.github.io/earth-project-incident-report/",
   "updatedAt": "2026-07-11"
 }
