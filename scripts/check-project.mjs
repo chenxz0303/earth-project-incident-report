@@ -103,6 +103,10 @@ if (catalog) {
         if (!Number.isInteger(chapter.wordCount) || Math.abs(chapter.wordCount - hanCharacters) / hanCharacters > 0.15) {
           fail(`${chapter.contentUrl} 的目录 wordCount 与正文汉字数偏差超过 15%`);
         }
+        const chineseNumberBeforeUnit = fullText.match(/[零一二三四五六七八九十百千万两点]+(?:吉帕|兆帕|毫米|摄氏度|秒|分钟|小时|楼)/u);
+        if (chineseNumberBeforeUnit) {
+          fail(`${chapter.contentUrl} 的精确数字应使用阿拉伯数字：${chineseNumberBeforeUnit[0]}`);
+        }
       }
     }
 
