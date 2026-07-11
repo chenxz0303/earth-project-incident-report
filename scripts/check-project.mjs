@@ -213,6 +213,62 @@ if (!(await exists("docs/第六卷第一百二十六至一百五十章场景卡.
   }
 }
 
+const sceneCardFiles = [
+  "docs/第一卷前十章场景卡.md",
+  "docs/第一卷第十一至二十五章场景卡.md",
+  "docs/第二卷第二十六至三十八章场景卡.md",
+  "docs/第二卷第三十九至五十章场景卡.md",
+  "docs/第三卷第五十一至六十三章场景卡.md",
+  "docs/第三卷第六十四至七十五章场景卡.md",
+  "docs/第四卷第七十六至一百章场景卡.md",
+  "docs/第五卷第一百零一至一百二十五章场景卡.md",
+  "docs/第六卷第一百二十六至一百五十章场景卡.md",
+];
+
+if (await exists("docs/章节规划.md")) {
+  const chapterPlan = await readFile(path.join(root, "docs/章节规划.md"), "utf8");
+  const plannedTitles = new Map(
+    [...chapterPlan.matchAll(/^\|\s*(\d{3})\s*\|\s*([^|]+?)\s*\|/gm)].map((match) => [Number(match[1]), match[2].trim()]),
+  );
+  const detailedTitles = new Map();
+
+  for (const [fileIndex, sceneCardFile] of sceneCardFiles.entries()) {
+    if (!(await exists(sceneCardFile))) continue;
+    const content = await readFile(path.join(root, sceneCardFile), "utf8");
+    const headingRows = [...content.matchAll(/^## 第 (\d{3}) 章：(.+)$/gm)];
+    const tableRows = [...content.matchAll(/^\|\s*(\d{3})\s*\|\s*([^|]+?)\s*\|/gm)];
+    const chapterRows = fileIndex < 6 ? headingRows : tableRows;
+    for (const match of chapterRows) {
+      const chapterNumber = Number(match[1]);
+      const title = match[2].trim();
+      if (detailedTitles.has(chapterNumber)) fail(`详细场景卡存在重复章节：${chapterNumber}`);
+      detailedTitles.set(chapterNumber, title);
+    }
+  }
+
+  for (let chapterNumber = 1; chapterNumber <= 150; chapterNumber += 1) {
+    if (!detailedTitles.has(chapterNumber)) {
+      fail(`缺少第 ${chapterNumber} 章详细场景卡`);
+    } else if (plannedTitles.get(chapterNumber) !== detailedTitles.get(chapterNumber)) {
+      fail(`第 ${chapterNumber} 章标题在章节规划与详细场景卡中不一致`);
+    }
+  }
+}
+
+const planningInvariants = [
+  ["docs/世界观规则.md", "独立的样本权益监护人", "缺少地球居民独立权益代表规则"],
+  ["docs/世界观规则.md", "36 点专项预算", "缺少最终修复专项预算规则"],
+  ["docs/第六卷第一百二十六至一百五十章场景卡.md", "因果污染最低而被选中", "缺少陈默入选原因回收"],
+  ["docs/第六卷第一百二十六至一百五十章场景卡.md", "原目标是研究资源受限条件下的合作与纠错", "缺少地球原始目的回收"],
+  ["docs/第六卷第一百二十六至一百五十章场景卡.md", "第 065 章形成的多地区匿名维护网络", "缺少全球协作前后呼应"],
+];
+
+for (const [relativePath, requiredText, message] of planningInvariants) {
+  if (!(await exists(relativePath))) continue;
+  const content = await readFile(path.join(root, relativePath), "utf8");
+  if (!content.includes(requiredText)) fail(message);
+}
+
 if (errors.length) {
   console.error("项目检查失败：");
   errors.forEach((error) => console.error(`- ${error}`));
