@@ -142,6 +142,26 @@ if (!(await exists("docs/第一卷第十一至二十五章场景卡.md"))) {
     fail(`第一卷后 15 章场景卡编号必须从 011 连续到 025，当前识别到 ${laterSceneNumbers.length} 章`);
   }
 }
+if (!(await exists("docs/第二卷第二十六至三十八章场景卡.md"))) {
+  fail("缺少第二卷第 26—38 章场景卡");
+} else {
+  const secondVolumeFirstCards = await readFile(path.join(root, "docs/第二卷第二十六至三十八章场景卡.md"), "utf8");
+  const secondVolumeFirstNumbers = [...secondVolumeFirstCards.matchAll(/^## 第 (\d{3}) 章：/gm)].map((match) => Number(match[1]));
+  const expectedSecondVolumeFirstNumbers = Array.from({ length: 13 }, (_, index) => index + 26);
+  if (JSON.stringify(secondVolumeFirstNumbers) !== JSON.stringify(expectedSecondVolumeFirstNumbers)) {
+    fail(`第二卷前 13 章场景卡编号必须从 026 连续到 038，当前识别到 ${secondVolumeFirstNumbers.length} 章`);
+  }
+}
+if (!(await exists("docs/第二卷第三十九至五十章场景卡.md"))) {
+  fail("缺少第二卷第 39—50 章场景卡");
+} else {
+  const secondVolumeLaterCards = await readFile(path.join(root, "docs/第二卷第三十九至五十章场景卡.md"), "utf8");
+  const secondVolumeLaterNumbers = [...secondVolumeLaterCards.matchAll(/^## 第 (\d{3}) 章：/gm)].map((match) => Number(match[1]));
+  const expectedSecondVolumeLaterNumbers = Array.from({ length: 12 }, (_, index) => index + 39);
+  if (JSON.stringify(secondVolumeLaterNumbers) !== JSON.stringify(expectedSecondVolumeLaterNumbers)) {
+    fail(`第二卷后 12 章场景卡编号必须从 039 连续到 050，当前识别到 ${secondVolumeLaterNumbers.length} 章`);
+  }
+}
 
 if (errors.length) {
   console.error("项目检查失败：");
