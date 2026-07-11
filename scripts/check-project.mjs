@@ -183,8 +183,16 @@ for (const requiredWritingFile of [
   "docs/第一卷前五章写作任务书.md",
   "docs/连续性台账.md",
   "docs/创作与发布流程.md",
+  "docs/每日20章创作计划.md",
 ]) {
   if (!(await exists(requiredWritingFile))) fail(`缺少正式创作准备文件：${requiredWritingFile}`);
+}
+
+if (await exists("docs/每日20章创作计划.md")) {
+  const dailyWritingPlan = await readFile(path.join(root, "docs/每日20章创作计划.md"), "utf8");
+  for (const requiredText of ["002—021", "122—141", "142—150", "每天09:00", "每批最多5章", "当天立即停止"]) {
+    if (!dailyWritingPlan.includes(requiredText)) fail(`每日20章创作计划缺少关键约束：${requiredText}`);
+  }
 }
 
 if (await exists("docs/第一卷前五章写作任务书.md")) {
