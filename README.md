@@ -1,17 +1,19 @@
 # 《地球项目事故调查报告》静态小说网站
 
-这是《地球项目事故调查报告》的个人阅读与创作管理仓库。项目使用纯静态 HTML、CSS、JavaScript 和 JSON，不需要数据库、服务器或付费接口，可通过 GitHub Pages 发布，并可导入安卓“阅读/Legado”App。
+这是《地球项目事故调查报告》的个人阅读与创作管理仓库。项目使用纯静态 HTML、CSS、JavaScript 和 JSON，不需要数据库、服务器或付费接口。GitHub Pages 负责网页发布，Gitee 公开仓库负责国内 Legado 数据镜像。
 
 当前只包含一篇明确标记为“非正式正文”的测试章，用于验证网页和书源；尚未开始正式创作。
 
 ## 固定地址
 
 - 网站：`https://chenxz0303.github.io/earth-project-incident-report/`
-- 书籍信息：`https://chenxz0303.github.io/earth-project-incident-report/data/book.json`
-- 目录接口：`https://chenxz0303.github.io/earth-project-incident-report/data/catalog.json`
-- Legado 书源：`https://chenxz0303.github.io/earth-project-incident-report/legado/book-source.json`
+- GitHub 主仓库：`https://github.com/chenxz0303/earth-project-incident-report`
+- Gitee 国内镜像：`https://gitee.com/cxz0303/earth-project-incident-report`
+- 国内书籍信息：`https://gitee.com/cxz0303/earth-project-incident-report/raw/main/data/book.json`
+- 国内目录接口：`https://gitee.com/cxz0303/earth-project-incident-report/raw/main/data/catalog.json`
+- 国内 Legado 书源：`https://gitee.com/cxz0303/earth-project-incident-report/raw/main/legado/book-source.json`
 
-以上地址在 GitHub Pages 第一次部署成功后生效。
+GitHub 是唯一主仓库；Gitee 是只读用途的国内镜像。日常修改先提交到 GitHub，再将同一个 `main` 分支同步到 Gitee，避免两个平台同时编辑导致内容互相覆盖。
 
 ## 如何启用 GitHub Pages
 
@@ -21,7 +23,7 @@
 4. 选择“测试并部署 GitHub Pages”，等待测试和部署都显示绿色对勾。
 5. 回到 **Settings → Pages**，即可看到正式网站地址。
 
-本仓库目前是私有仓库。GitHub 是否允许从私有仓库发布 Pages 取决于账号套餐与当前 GitHub 政策。如果 Pages 页面提示套餐不支持，请不要把仓库擅自改为公开；可升级支持私有仓库 Pages 的套餐，或日后确认后再选择其他发布方式。Legado 必须能匿名访问上述网站地址，不能读取需要 GitHub 登录的仓库文件。
+本仓库目前是公开仓库，GitHub Pages 与 Gitee Raw 数据都可以匿名读取。Legado 不需要登录 GitHub 或 Gitee。
 
 ## 如何获得网站地址
 
@@ -29,27 +31,28 @@
 
 `https://chenxz0303.github.io/earth-project-incident-report/`
 
-如果以后修改用户名或仓库名，需要同步修改：
+如果以后修改 GitHub/Gitee 用户名或仓库名，需要同步修改：
 
 - `legado/book-source.json` 中的 `bookSourceUrl`；
-- `scripts/check-project.mjs` 中的 `expectedBase`；
+- `data/book.json` 与 `data/catalog.json` 中的 Gitee Raw 地址；
+- `scripts/check-project.mjs` 中的 `expectedDataBase` 与 `expectedWebsiteBase`；
 - 本 README 中列出的固定地址。
 
 修改后运行 `npm test`，确认所有引用一致。
 
 ## 如何导入安卓“阅读/Legado”书源
 
-1. 确认 GitHub Pages 已部署成功，并用手机浏览器打开书源地址。
+1. 用手机浏览器打开下方 Gitee 国内书源地址，确认能看到 JSON 文本。
 2. 在“阅读”App 中进入 **我的 → 书源管理**。
 3. 选择右上角菜单中的 **网络导入**。
 4. 输入：
 
-   `https://chenxz0303.github.io/earth-project-incident-report/legado/book-source.json`
+   `https://gitee.com/cxz0303/earth-project-incident-report/raw/main/legado/book-source.json`
 
 5. 确认导入“地球项目事故调查报告”。
 6. 在发现页打开“个人书源”，或搜索完整书名。
 
-这是本书专用书源，因此搜索接口固定返回本书。正式使用前应先在浏览器中确认 `book.json`、`catalog.json` 和章节 JSON 均能直接打开。
+这是本书专用书源，因此搜索接口固定返回本书。书源、目录和章节正文使用 Gitee Raw 地址，正常情况下在国内网络中不需要访问 GitHub Pages。作品网页仍部署在 GitHub Pages，因此打开网页本身时仍可能受网络环境影响，但不影响“阅读”App 拉取正文数据。
 
 ## 如何新增章节
 
@@ -83,7 +86,7 @@
   "volumeId": "volume-01",
   "volumeTitle": "卷名",
   "contentUrl": "chapters/volume-01/chapter-002.json",
-  "sourceUrl": "https://chenxz0303.github.io/earth-project-incident-report/chapters/volume-01/chapter-002.json",
+  "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-002.json",
   "pageUrl": "reader.html?chapter=volume-01/chapter-002",
   "isTest": false,
   "wordCount": 3500
@@ -96,7 +99,15 @@
 npm test
 ```
 
-测试通过后再提交。推送到 `main` 分支会自动重新部署网站。
+测试通过后再提交。推送到 GitHub `main` 分支会自动重新部署网站；随后把同一个提交推送到 Gitee，国内书源才会获取到最新目录和正文。
+
+首次设置完成后，本地仓库会保留名为 `gitee` 的远程地址。更新镜像时运行：
+
+```text
+git push gitee main
+```
+
+如果 Gitee 要求验证身份，请使用 Gitee 的安全认证方式，不要把密码或私人令牌写进仓库文件。
 
 ## 如何删除测试章
 
@@ -110,12 +121,12 @@ npm test
 
 按顺序检查：
 
-1. 用手机浏览器打开网站地址，确认没有 404 或登录页面。
-2. 分别打开 `data/book.json`、`data/catalog.json` 和章节 JSON，确认能看到文本。
-3. 确认书源中的 `bookSourceUrl` 以 `/` 结尾，且用户名和仓库名正确。
-4. 确认 GitHub Actions 最近一次部署为绿色对勾。
+1. 用手机浏览器打开 Gitee 国内书源地址，确认没有 404 或登录页面。
+2. 分别打开 Gitee 上的 `data/book.json`、`data/catalog.json` 和章节 Raw 地址，确认能看到 JSON 文本。
+3. 确认书源中的 `bookSourceUrl` 以 `/raw/main/` 结尾，且 Gitee 用户名和仓库名正确。
+4. 确认 Gitee 镜像的 `main` 分支已经同步到 GitHub 主仓库的最新提交。
 5. 在“阅读”中删除旧书源后重新网络导入，避免缓存旧规则。
-6. 如果浏览器要求登录 GitHub，说明访问的是私有仓库文件而不是可匿名访问的 Pages 网站，Legado 无法使用这种地址。
+6. 如果地址跳转到登录页，确认 Gitee 镜像仓库仍为公开，并且使用的是 `/raw/main/` 地址。
 7. 在电脑上运行 `npm test`，修复报告的目录、链接或 JSON 错误。
 
 ## 目录说明

@@ -1,10 +1,10 @@
 [
   {
-    "bookSourceComment": "《地球项目事故调查报告》专用静态书源。根地址由 GitHub 用户名 chenxz0303 与仓库名 earth-project-incident-report 自动生成。",
+    "bookSourceComment": "《地球项目事故调查报告》专用静态书源。正文数据使用 Gitee 国内镜像，GitHub 仍是主仓库和网站发布端。",
     "bookSourceGroup": "个人书源",
     "bookSourceName": "地球项目事故调查报告",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://chenxz0303.github.io/earth-project-incident-report/",
+    "bookSourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/",
     "customOrder": 0,
     "enabled": true,
     "enabledCookieJar": true,

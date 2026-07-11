@@ -14,7 +14,7 @@
           "volumeId": "volume-01",
           "volumeTitle": "第一卷（暂定）：现实参数异常",
           "contentUrl": "chapters/volume-01/chapter-001.json",
-          "sourceUrl": "https://chenxz0303.github.io/earth-project-incident-report/chapters/volume-01/chapter-001.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-001.json",
           "pageUrl": "reader.html?chapter=volume-01/chapter-001",
           "isTest": true,
           "wordCount": 258
@@ -29,7 +29,7 @@
       "volumeId": "volume-01",
       "volumeTitle": "第一卷（暂定）：现实参数异常",
       "contentUrl": "chapters/volume-01/chapter-001.json",
-      "sourceUrl": "https://chenxz0303.github.io/earth-project-incident-report/chapters/volume-01/chapter-001.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-001.json",
       "pageUrl": "reader.html?chapter=volume-01/chapter-001",
       "isTest": true,
       "wordCount": 258

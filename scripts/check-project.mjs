@@ -3,7 +3,8 @@ import path from "node:path";
 import process from "node:process";
 
 const root = process.cwd();
-const expectedBase = "https://chenxz0303.github.io/earth-project-incident-report/";
+const expectedDataBase = "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/";
+const expectedWebsiteBase = "https://chenxz0303.github.io/earth-project-incident-report/";
 const errors = [];
 
 const fail = (message) => errors.push(message);
@@ -36,8 +37,9 @@ if (book) {
   if (book.title !== "地球项目事故调查报告") fail("书名与项目约定不一致");
   if (book.author !== "陈默项目组") fail("作者显示名与项目约定不一致");
   if (!(await exists(book.catalogUrl))) fail(`书籍信息引用的目录不存在：${book.catalogUrl}`);
-  if (book.bookInfoUrl !== `${expectedBase}data/book.json`) fail("书源书籍信息绝对地址错误");
-  if (book.catalogSourceUrl !== `${expectedBase}data/catalog.json`) fail("书源目录绝对地址错误");
+  if (book.bookInfoUrl !== `${expectedDataBase}data/book.json`) fail("书源书籍信息绝对地址错误");
+  if (book.catalogSourceUrl !== `${expectedDataBase}data/catalog.json`) fail("书源目录绝对地址错误");
+  if (book.websiteUrl !== expectedWebsiteBase) fail("作品网站地址错误");
 }
 
 if (catalog) {
@@ -62,7 +64,7 @@ if (catalog) {
       if (!chapter.pageUrl.startsWith(`reader.html?chapter=${chapter.id}`)) {
         fail(`章节页面参数与 id 不一致：${chapter.pageUrl}`);
       }
-      if (chapter.sourceUrl !== `${expectedBase}${chapter.contentUrl}`) {
+      if (chapter.sourceUrl !== `${expectedDataBase}${chapter.contentUrl}`) {
         fail(`章节书源绝对地址与网页地址不一致：${chapter.id}`);
       }
       const content = await readJson(chapter.contentUrl);
@@ -89,7 +91,7 @@ if (!Array.isArray(sources) || sources.length !== 1) {
   fail("legado/book-source.json 必须是只含一个书源的数组");
 } else {
   const source = sources[0];
-  if (source.bookSourceUrl !== expectedBase) fail(`书源根地址错误，应为 ${expectedBase}`);
+  if (source.bookSourceUrl !== expectedDataBase) fail(`书源根地址错误，应为 ${expectedDataBase}`);
   if (source.searchUrl !== "data/book.json") fail("书源搜索地址未指向 book.json");
   if (!String(source.exploreUrl).endsWith("data/book.json")) fail("书源发现地址未指向 book.json");
   if (source.ruleBookInfo?.tocUrl !== "$.catalogSourceUrl") fail("书源书籍信息规则未获取绝对目录地址");
