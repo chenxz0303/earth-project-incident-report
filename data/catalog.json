@@ -18,6 +18,61 @@
           "pageUrl": "reader.html?chapter=volume-01/chapter-001",
           "isTest": false,
           "wordCount": 3340
+        },
+        {
+          "id": "volume-01/chapter-002",
+          "title": "第002章：会议室不是刚体",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-002.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-002.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-002",
+          "isTest": false,
+          "wordCount": 3216
+        },
+        {
+          "id": "volume-01/chapter-003",
+          "title": "第003章：抄送给不存在的人",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-003.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-003.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-003",
+          "isTest": false,
+          "wordCount": 3284
+        },
+        {
+          "id": "volume-01/chapter-004",
+          "title": "第004章：半秒钟没有重量",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-004.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-004.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-004",
+          "isTest": false,
+          "wordCount": 3450
+        },
+        {
+          "id": "volume-01/chapter-005",
+          "title": "第005章：第一条越权提示",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-005.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-005.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-005",
+          "isTest": false,
+          "wordCount": 3421
+        },
+        {
+          "id": "volume-01/chapter-006",
+          "title": "第006章：修复半径三米",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-006.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-006.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-006",
+          "isTest": false,
+          "wordCount": 3522
         }
       ]
     }
@@ -33,6 +88,61 @@
       "pageUrl": "reader.html?chapter=volume-01/chapter-001",
       "isTest": false,
       "wordCount": 3340
+    },
+    {
+      "id": "volume-01/chapter-002",
+      "title": "第002章：会议室不是刚体",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-002.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-002.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-002",
+      "isTest": false,
+      "wordCount": 3216
+    },
+    {
+      "id": "volume-01/chapter-003",
+      "title": "第003章：抄送给不存在的人",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-003.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-003.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-003",
+      "isTest": false,
+      "wordCount": 3284
+    },
+    {
+      "id": "volume-01/chapter-004",
+      "title": "第004章：半秒钟没有重量",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-004.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-004.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-004",
+      "isTest": false,
+      "wordCount": 3450
+    },
+    {
+      "id": "volume-01/chapter-005",
+      "title": "第005章：第一条越权提示",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-005.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-005.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-005",
+      "isTest": false,
+      "wordCount": 3421
+    },
+    {
+      "id": "volume-01/chapter-006",
+      "title": "第006章：修复半径三米",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-006.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-006.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-006",
+      "isTest": false,
+      "wordCount": 3522
     }
   ]
 }
