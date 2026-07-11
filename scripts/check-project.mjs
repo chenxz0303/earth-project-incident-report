@@ -112,6 +112,16 @@ for (const htmlFile of ["index.html", "reader.html"]) {
 
 if (!(await exists(".github/workflows/pages.yml"))) fail("缺少 GitHub Pages 工作流");
 if (!(await exists("docs/项目说明书.md"))) fail("缺少项目说明书");
+if (!(await exists("docs/章节规划.md"))) {
+  fail("缺少 150 章章节规划");
+} else {
+  const chapterPlan = await readFile(path.join(root, "docs/章节规划.md"), "utf8");
+  const plannedNumbers = [...chapterPlan.matchAll(/^\|\s*(\d{3})\s*\|/gm)].map((match) => Number(match[1]));
+  const expectedNumbers = Array.from({ length: 150 }, (_, index) => index + 1);
+  if (JSON.stringify(plannedNumbers) !== JSON.stringify(expectedNumbers)) {
+    fail(`章节规划编号必须从 001 连续到 150，当前识别到 ${plannedNumbers.length} 章`);
+  }
+}
 
 if (errors.length) {
   console.error("项目检查失败：");
