@@ -182,6 +182,36 @@ if (!(await exists("docs/第三卷第六十四至七十五章场景卡.md"))) {
     fail(`第三卷后 12 章场景卡编号必须从 064 连续到 075，当前识别到 ${thirdVolumeLaterNumbers.length} 章`);
   }
 }
+if (!(await exists("docs/第四卷第七十六至一百章场景卡.md"))) {
+  fail("缺少第四卷第 76—100 章场景卡");
+} else {
+  const fourthVolumeCards = await readFile(path.join(root, "docs/第四卷第七十六至一百章场景卡.md"), "utf8");
+  const fourthVolumeNumbers = [...fourthVolumeCards.matchAll(/^\|\s*(\d{3})\s*\|/gm)].map((match) => Number(match[1]));
+  const expectedFourthVolumeNumbers = Array.from({ length: 25 }, (_, index) => index + 76);
+  if (JSON.stringify(fourthVolumeNumbers) !== JSON.stringify(expectedFourthVolumeNumbers)) {
+    fail(`第四卷场景卡编号必须从 076 连续到 100，当前识别到 ${fourthVolumeNumbers.length} 章`);
+  }
+}
+if (!(await exists("docs/第五卷第一百零一至一百二十五章场景卡.md"))) {
+  fail("缺少第五卷第 101—125 章场景卡");
+} else {
+  const fifthVolumeCards = await readFile(path.join(root, "docs/第五卷第一百零一至一百二十五章场景卡.md"), "utf8");
+  const fifthVolumeNumbers = [...fifthVolumeCards.matchAll(/^\|\s*(\d{3})\s*\|/gm)].map((match) => Number(match[1]));
+  const expectedFifthVolumeNumbers = Array.from({ length: 25 }, (_, index) => index + 101);
+  if (JSON.stringify(fifthVolumeNumbers) !== JSON.stringify(expectedFifthVolumeNumbers)) {
+    fail(`第五卷场景卡编号必须从 101 连续到 125，当前识别到 ${fifthVolumeNumbers.length} 章`);
+  }
+}
+if (!(await exists("docs/第六卷第一百二十六至一百五十章场景卡.md"))) {
+  fail("缺少第六卷第 126—150 章场景卡");
+} else {
+  const sixthVolumeCards = await readFile(path.join(root, "docs/第六卷第一百二十六至一百五十章场景卡.md"), "utf8");
+  const sixthVolumeNumbers = [...sixthVolumeCards.matchAll(/^\|\s*(\d{3})\s*\|/gm)].map((match) => Number(match[1]));
+  const expectedSixthVolumeNumbers = Array.from({ length: 25 }, (_, index) => index + 126);
+  if (JSON.stringify(sixthVolumeNumbers) !== JSON.stringify(expectedSixthVolumeNumbers)) {
+    fail(`第六卷场景卡编号必须从 126 连续到 150，当前识别到 ${sixthVolumeNumbers.length} 章`);
+  }
+}
 
 if (errors.length) {
   console.error("项目检查失败：");

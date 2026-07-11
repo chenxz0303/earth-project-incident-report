@@ -138,7 +138,7 @@ git push gitee main
 ├── data/                      书籍信息与目录接口
 ├── chapters/                  独立章节 JSON
 ├── legado/book-source.json    安卓“阅读”书源
-├── docs/                      大纲、150章规划、前三卷75章场景卡与维护档案
+├── docs/                      六卷150章完整场景卡、人物、设定与维护档案
 ├── scripts/check-project.mjs  一致性测试
 └── .github/workflows/pages.yml 自动测试与部署
 ```
