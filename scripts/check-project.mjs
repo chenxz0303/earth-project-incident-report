@@ -31,8 +31,11 @@ const catalog = await readJson("data/catalog.json");
 const sources = await readJson("legado/book-source.json");
 
 if (book) {
-  for (const key of ["id", "title", "author", "description", "catalogUrl", "bookInfoUrl"]) {
+  for (const key of ["id", "title", "author", "description", "publicationStage", "catalogUrl", "bookInfoUrl"]) {
     if (!book[key]) fail(`data/book.json 缺少 ${key}`);
+  }
+  if (!["planning", "serializing", "complete"].includes(book.publicationStage)) {
+    fail("data/book.json 的 publicationStage 必须是 planning、serializing 或 complete");
   }
   if (book.title !== "地球项目事故调查报告") fail("书名与项目约定不一致");
   if (book.author !== "陈默项目组") fail("作者显示名与项目约定不一致");
@@ -76,8 +79,38 @@ if (catalog) {
 
     const testChapters = catalog.chapters.filter((chapter) => chapter.isTest);
     const formalChapters = catalog.chapters.filter((chapter) => !chapter.isTest);
-    if (testChapters.length !== 1) fail(`当前阶段必须且只能有 1 篇测试章，实际为 ${testChapters.length}`);
-    if (formalChapters.length !== 0) fail(`当前阶段不得生成正式正文，检测到 ${formalChapters.length} 篇`);
+    if (book?.publicationStage === "planning") {
+      if (testChapters.length !== 1) fail(`筹备阶段必须且只能有 1 篇测试章，实际为 ${testChapters.length}`);
+      if (formalChapters.length !== 0) fail(`筹备阶段不得生成正式正文，检测到 ${formalChapters.length} 篇`);
+    } else {
+      if (testChapters.length !== 0) fail("正式连载开始后必须删除非正式测试章");
+      if (formalChapters.length === 0) fail("连载或完结阶段必须至少包含 1 篇正式章节");
+    }
+
+    const maintenanceFiles = [
+      "docs/章节摘要.md",
+      "docs/时间线.md",
+      "docs/人物状态.md",
+      "docs/伏笔表.md",
+      "docs/连续性台账.md",
+    ];
+    const maintenanceContents = new Map();
+    for (const maintenanceFile of maintenanceFiles) {
+      if (!(await exists(maintenanceFile))) {
+        fail(`缺少正式创作维护档案：${maintenanceFile}`);
+        continue;
+      }
+      maintenanceContents.set(maintenanceFile, await readFile(path.join(root, maintenanceFile), "utf8"));
+    }
+
+    for (const chapter of formalChapters) {
+      const marker = `<!-- chapter:${chapter.id} -->`;
+      for (const [maintenanceFile, maintenanceContent] of maintenanceContents) {
+        if (!maintenanceContent.includes(marker)) {
+          fail(`${chapter.id} 尚未同步维护档案：${maintenanceFile}`);
+        }
+      }
+    }
 
     const latest = catalog.chapters.at(-1);
     if (book && latest) {
@@ -112,6 +145,49 @@ for (const htmlFile of ["index.html", "reader.html"]) {
 
 if (!(await exists(".github/workflows/pages.yml"))) fail("缺少 GitHub Pages 工作流");
 if (!(await exists("docs/项目说明书.md"))) fail("缺少项目说明书");
+for (const requiredWritingFile of [
+  "docs/章节创作模板.md",
+  "docs/第一卷前五章写作任务书.md",
+  "docs/连续性台账.md",
+  "docs/创作与发布流程.md",
+]) {
+  if (!(await exists(requiredWritingFile))) fail(`缺少正式创作准备文件：${requiredWritingFile}`);
+}
+
+if (await exists("docs/第一卷前五章写作任务书.md")) {
+  const firstFiveBrief = await readFile(path.join(root, "docs/第一卷前五章写作任务书.md"), "utf8");
+  const briefRows = [...firstFiveBrief.matchAll(/^## 🎯 第(\d{3})章：(.+)$/gm)];
+  const briefNumbers = briefRows.map((match) => Number(match[1]));
+  if (JSON.stringify(briefNumbers) !== JSON.stringify([1, 2, 3, 4, 5])) {
+    fail("第一卷前五章写作任务书必须连续包含第001—005章");
+  }
+  if (await exists("docs/章节规划.md")) {
+    const chapterPlan = await readFile(path.join(root, "docs/章节规划.md"), "utf8");
+    const plannedTitles = new Map(
+      [...chapterPlan.matchAll(/^\|\s*(\d{3})\s*\|\s*([^|]+?)\s*\|/gm)].map((match) => [Number(match[1]), match[2].trim()]),
+    );
+    for (const match of briefRows) {
+      const chapterNumber = Number(match[1]);
+      if (match[2].trim() !== plannedTitles.get(chapterNumber)) {
+        fail(`第 ${chapterNumber} 章写作任务书标题与章节规划不一致`);
+      }
+    }
+  }
+}
+
+if (await exists("docs/章节创作模板.md")) {
+  const chapterTemplate = await readFile(path.join(root, "docs/章节创作模板.md"), "utf8");
+  if (!chapterTemplate.includes("<!-- chapter:volume-XX/chapter-XXX -->")) {
+    fail("章节创作模板缺少维护档案机器标记");
+  }
+}
+
+if (await exists("docs/创作与发布流程.md")) {
+  const publishingWorkflow = await readFile(path.join(root, "docs/创作与发布流程.md"), "utf8");
+  for (const requiredText of ["accTitle:", "accDescr:", "推送 GitHub", "同步 Gitee", "自动检查通过?"]) {
+    if (!publishingWorkflow.includes(requiredText)) fail(`创作与发布流程缺少关键步骤：${requiredText}`);
+  }
+}
 if (!(await exists("docs/章节规划.md"))) {
   fail("缺少 150 章章节规划");
 } else {
