@@ -50,7 +50,7 @@
           "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-004.json",
           "pageUrl": "reader.html?chapter=volume-01/chapter-004",
           "isTest": false,
-          "wordCount": 3450
+          "wordCount": 3411
         },
         {
           "id": "volume-01/chapter-005",
@@ -72,7 +72,62 @@
           "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-006.json",
           "pageUrl": "reader.html?chapter=volume-01/chapter-006",
           "isTest": false,
-          "wordCount": 3522
+          "wordCount": 3519
+        },
+        {
+          "id": "volume-01/chapter-007",
+          "title": "第007章：来自项目外的电话",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-007.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-007.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-007",
+          "isTest": false,
+          "wordCount": 3511
+        },
+        {
+          "id": "volume-01/chapter-008",
+          "title": "第008章：请先证明地球存在",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-008.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-008.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-008",
+          "isTest": false,
+          "wordCount": 3346
+        },
+        {
+          "id": "volume-01/chapter-009",
+          "title": "第009章：电梯不是刚体",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-009.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-009.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-009",
+          "isTest": false,
+          "wordCount": 3987
+        },
+        {
+          "id": "volume-01/chapter-010",
+          "title": "第010章：不接受口头边界条件",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-010.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-010.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-010",
+          "isTest": false,
+          "wordCount": 3469
+        },
+        {
+          "id": "volume-01/chapter-011",
+          "title": "第011章：正确补丁的错误后果",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-011.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-011.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-011",
+          "isTest": false,
+          "wordCount": 3625
         }
       ]
     }
@@ -120,7 +175,7 @@
       "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-004.json",
       "pageUrl": "reader.html?chapter=volume-01/chapter-004",
       "isTest": false,
-      "wordCount": 3450
+      "wordCount": 3411
     },
     {
       "id": "volume-01/chapter-005",
@@ -142,7 +197,62 @@
       "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-006.json",
       "pageUrl": "reader.html?chapter=volume-01/chapter-006",
       "isTest": false,
-      "wordCount": 3522
+      "wordCount": 3519
+    },
+    {
+      "id": "volume-01/chapter-007",
+      "title": "第007章：来自项目外的电话",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-007.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-007.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-007",
+      "isTest": false,
+      "wordCount": 3511
+    },
+    {
+      "id": "volume-01/chapter-008",
+      "title": "第008章：请先证明地球存在",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-008.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-008.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-008",
+      "isTest": false,
+      "wordCount": 3346
+    },
+    {
+      "id": "volume-01/chapter-009",
+      "title": "第009章：电梯不是刚体",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-009.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-009.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-009",
+      "isTest": false,
+      "wordCount": 3987
+    },
+    {
+      "id": "volume-01/chapter-010",
+      "title": "第010章：不接受口头边界条件",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-010.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-010.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-010",
+      "isTest": false,
+      "wordCount": 3469
+    },
+    {
+      "id": "volume-01/chapter-011",
+      "title": "第011章：正确补丁的错误后果",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-011.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-011.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-011",
+      "isTest": false,
+      "wordCount": 3625
     }
   ]
 }
