@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "bookId": "earth-project-incident-report",
+  "updatedAt": "2026-07-11",
+  "volumes": [
+    {
+      "id": "volume-01",
+      "title": "第一卷（暂定）：现实参数异常",
+      "summary": "卷名与正式章节尚未定稿。当前仅保留一篇可随时删除的联调测试章。",
+      "chapters": [
+        {
+          "id": "volume-01/chapter-001",
+          "title": "功能测试章：工单已创建，地球暂未删除",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-001.json",
+          "sourceUrl": "https://chenxz0303.github.io/earth-project-incident-report/chapters/volume-01/chapter-001.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-001",
+          "isTest": true,
+          "wordCount": 258
+        }
+      ]
+    }
+  ],
+  "chapters": [
+    {
+      "id": "volume-01/chapter-001",
+      "title": "功能测试章：工单已创建，地球暂未删除",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-001.json",
+      "sourceUrl": "https://chenxz0303.github.io/earth-project-incident-report/chapters/volume-01/chapter-001.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-001",
+      "isTest": true,
+      "wordCount": 258
+    }
+  ]
+}

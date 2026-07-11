@@ -1,0 +1,60 @@
+[
+  {
+    "bookSourceComment": "《地球项目事故调查报告》专用静态书源。根地址由 GitHub 用户名 chenxz0303 与仓库名 earth-project-incident-report 自动生成。",
+    "bookSourceGroup": "个人书源",
+    "bookSourceName": "地球项目事故调查报告",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://chenxz0303.github.io/earth-project-incident-report/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledCookieJar": true,
+    "enabledExplore": true,
+    "exploreUrl": "发现本书::data/book.json",
+    "header": "{\"User-Agent\":\"Mozilla/5.0 (Linux; Android 13) AppleWebKit/537.36 Chrome/120 Mobile Safari/537.36\"}",
+    "lastUpdateTime": 1783742400000,
+    "loginUrl": "",
+    "respondTime": 180000,
+    "ruleBookInfo": {
+      "author": "$.author",
+      "coverUrl": "$.cover",
+      "intro": "$.description",
+      "kind": "$.tags[*]",
+      "lastChapter": "$.latestChapterTitle",
+      "name": "$.title",
+      "tocUrl": "$.catalogSourceUrl"
+    },
+    "ruleContent": {
+      "content": "$.content[*]",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "$.author",
+      "bookList": "$",
+      "bookUrl": "$.bookInfoUrl",
+      "coverUrl": "$.cover",
+      "intro": "$.description",
+      "kind": "$.tags[*]",
+      "lastChapter": "$.latestChapterTitle",
+      "name": "$.title"
+    },
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$",
+      "bookUrl": "$.bookInfoUrl",
+      "coverUrl": "$.cover",
+      "intro": "$.description",
+      "kind": "$.tags[*]",
+      "lastChapter": "$.latestChapterTitle",
+      "name": "$.title"
+    },
+    "ruleToc": {
+      "chapterList": "$.chapters[*]",
+      "chapterName": "$.title",
+      "chapterUrl": "$.sourceUrl",
+      "isVip": "",
+      "isPay": "",
+      "updateTime": ""
+    },
+    "searchUrl": "data/book.json"
+  }
+]

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#f4efe6">
+  <meta name="description" content="《地球项目事故调查报告》作品主页与章节目录">
+  <title>地球项目事故调查报告</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="./">陈默项目组</a>
+    <button class="theme-toggle" type="button" data-theme-toggle aria-label="切换日间或夜间模式">夜间</button>
+  </header>
+
+  <main class="page-shell">
+    <section class="hero" aria-labelledby="book-title">
+      <div class="eyebrow">科幻 · 职场喜剧 · 悬疑调查</div>
+      <h1 id="book-title">正在读取作品信息…</h1>
+      <p class="author" id="book-author"></p>
+      <p class="intro" id="book-intro"></p>
+      <div class="book-meta" id="book-meta"></div>
+    </section>
+
+    <section class="catalog-section" aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div>
+          <div class="eyebrow">CATALOG</div>
+          <h2 id="catalog-title">分卷目录</h2>
+        </div>
+        <span class="chapter-count" id="chapter-count"></span>
+      </div>
+      <div id="catalog" class="catalog" aria-live="polite">
+        <p class="loading">正在读取目录…</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>个人阅读项目 · 内容与目录由静态数据文件驱动</p>
+  </footer>
+  <script src="assets/common.js"></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

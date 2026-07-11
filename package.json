@@ -1,0 +1,12 @@
+{
+  "name": "earth-project-incident-report",
+  "version": "0.1.0",
+  "private": true,
+  "description": "《地球项目事故调查报告》静态小说网站与 Legado 书源",
+  "scripts": {
+    "test": "node scripts/check-project.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
