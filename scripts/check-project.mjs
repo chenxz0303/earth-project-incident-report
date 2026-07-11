@@ -122,6 +122,16 @@ if (!(await exists("docs/章节规划.md"))) {
     fail(`章节规划编号必须从 001 连续到 150，当前识别到 ${plannedNumbers.length} 章`);
   }
 }
+if (!(await exists("docs/第一卷前十章场景卡.md"))) {
+  fail("缺少第一卷前十章场景卡");
+} else {
+  const sceneCards = await readFile(path.join(root, "docs/第一卷前十章场景卡.md"), "utf8");
+  const sceneChapterNumbers = [...sceneCards.matchAll(/^## 第 (\d{3}) 章：/gm)].map((match) => Number(match[1]));
+  const expectedSceneNumbers = Array.from({ length: 10 }, (_, index) => index + 1);
+  if (JSON.stringify(sceneChapterNumbers) !== JSON.stringify(expectedSceneNumbers)) {
+    fail(`前十章场景卡编号必须从 001 连续到 010，当前识别到 ${sceneChapterNumbers.length} 章`);
+  }
+}
 
 if (errors.length) {
   console.error("项目检查失败：");
