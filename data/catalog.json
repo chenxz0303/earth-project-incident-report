@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "bookId": "earth-project-incident-report",
-  "updatedAt": "2026-07-11",
+  "updatedAt": "2026-07-12",
   "volumes": [
     {
       "id": "volume-01",
@@ -238,6 +238,68 @@
           "pageUrl": "reader.html?chapter=volume-01/chapter-021",
           "isTest": false,
           "wordCount": 3003
+        },
+        {
+          "id": "volume-01/chapter-022",
+          "title": "第022章：三个参数的夜班",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-022.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-022.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-022",
+          "isTest": false,
+          "wordCount": 3827
+        },
+        {
+          "id": "volume-01/chapter-023",
+          "title": "第023章：地下的根裂纹",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-023.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-023.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-023",
+          "isTest": false,
+          "wordCount": 3606
+        },
+        {
+          "id": "volume-01/chapter-024",
+          "title": "第024章：不能远程解决的问题",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-024.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-024.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-024",
+          "isTest": false,
+          "wordCount": 3417
+        },
+        {
+          "id": "volume-01/chapter-025",
+          "title": "第025章：地球项目 E-731",
+          "volumeId": "volume-01",
+          "volumeTitle": "第一卷（暂定）：现实参数异常",
+          "contentUrl": "chapters/volume-01/chapter-025.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-025.json",
+          "pageUrl": "reader.html?chapter=volume-01/chapter-025",
+          "isTest": false,
+          "wordCount": 3842
+        }
+      ]
+    },
+    {
+      "id": "volume-02",
+      "title": "第二卷（暂定）：歼星舰事故组",
+      "summary": "陈默进入衡光号事故组，在复杂的宇宙组织与专业壁垒中拆解结构、热流体、控制和管理证据，追查地球为何取代原目标。",
+      "chapters": [
+        {
+          "id": "volume-02/chapter-026",
+          "title": "第026章：欢迎加入事故组",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-026.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-026.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-026",
+          "isTest": false,
+          "wordCount": 3479
         }
       ]
     }
@@ -473,6 +535,61 @@
       "pageUrl": "reader.html?chapter=volume-01/chapter-021",
       "isTest": false,
       "wordCount": 3003
+    },
+    {
+      "id": "volume-01/chapter-022",
+      "title": "第022章：三个参数的夜班",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-022.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-022.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-022",
+      "isTest": false,
+      "wordCount": 3827
+    },
+    {
+      "id": "volume-01/chapter-023",
+      "title": "第023章：地下的根裂纹",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-023.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-023.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-023",
+      "isTest": false,
+      "wordCount": 3606
+    },
+    {
+      "id": "volume-01/chapter-024",
+      "title": "第024章：不能远程解决的问题",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-024.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-024.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-024",
+      "isTest": false,
+      "wordCount": 3417
+    },
+    {
+      "id": "volume-01/chapter-025",
+      "title": "第025章：地球项目 E-731",
+      "volumeId": "volume-01",
+      "volumeTitle": "第一卷（暂定）：现实参数异常",
+      "contentUrl": "chapters/volume-01/chapter-025.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-01/chapter-025.json",
+      "pageUrl": "reader.html?chapter=volume-01/chapter-025",
+      "isTest": false,
+      "wordCount": 3842
+    },
+    {
+      "id": "volume-02/chapter-026",
+      "title": "第026章：欢迎加入事故组",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-026.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-026.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-026",
+      "isTest": false,
+      "wordCount": 3479
     }
   ]
 }
