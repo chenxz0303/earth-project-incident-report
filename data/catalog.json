@@ -355,6 +355,61 @@
           "pageUrl": "reader.html?chapter=volume-02/chapter-031",
           "isTest": false,
           "wordCount": 3601
+        },
+        {
+          "id": "volume-02/chapter-032",
+          "title": "第032章：不收敛不是答案",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-032.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-032.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-032",
+          "isTest": false,
+          "wordCount": 3507
+        },
+        {
+          "id": "volume-02/chapter-033",
+          "title": "第033章：一块不存在的碎片",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-033.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-033.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-033",
+          "isTest": false,
+          "wordCount": 3409
+        },
+        {
+          "id": "volume-02/chapter-034",
+          "title": "第034章：签字的人不等于知道的人",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-034.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-034.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-034",
+          "isTest": false,
+          "wordCount": 3422
+        },
+        {
+          "id": "volume-02/chapter-035",
+          "title": "第035章：事实、推断和意见",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-035.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-035.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-035",
+          "isTest": false,
+          "wordCount": 3473
+        },
+        {
+          "id": "volume-02/chapter-036",
+          "title": "第036章：联络官也要补流程",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-036.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-036.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-036",
+          "isTest": false,
+          "wordCount": 3329
         }
       ]
     }
@@ -700,6 +755,61 @@
       "pageUrl": "reader.html?chapter=volume-02/chapter-031",
       "isTest": false,
       "wordCount": 3601
+    },
+    {
+      "id": "volume-02/chapter-032",
+      "title": "第032章：不收敛不是答案",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-032.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-032.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-032",
+      "isTest": false,
+      "wordCount": 3507
+    },
+    {
+      "id": "volume-02/chapter-033",
+      "title": "第033章：一块不存在的碎片",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-033.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-033.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-033",
+      "isTest": false,
+      "wordCount": 3409
+    },
+    {
+      "id": "volume-02/chapter-034",
+      "title": "第034章：签字的人不等于知道的人",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-034.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-034.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-034",
+      "isTest": false,
+      "wordCount": 3422
+    },
+    {
+      "id": "volume-02/chapter-035",
+      "title": "第035章：事实、推断和意见",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-035.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-035.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-035",
+      "isTest": false,
+      "wordCount": 3473
+    },
+    {
+      "id": "volume-02/chapter-036",
+      "title": "第036章：联络官也要补流程",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-036.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-036.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-036",
+      "isTest": false,
+      "wordCount": 3329
     }
   ]
 }
