@@ -410,6 +410,61 @@
           "pageUrl": "reader.html?chapter=volume-02/chapter-036",
           "isTest": false,
           "wordCount": 3329
+        },
+        {
+          "id": "volume-02/chapter-037",
+          "title": "第037章：百万分之一功率",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-037.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-037.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-037",
+          "isTest": false,
+          "wordCount": 3634
+        },
+        {
+          "id": "volume-02/chapter-038",
+          "title": "第038章：差一点再来一次",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-038.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-038.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-038",
+          "isTest": false,
+          "wordCount": 3803
+        },
+        {
+          "id": "volume-02/chapter-039",
+          "title": "第039章：不在说明书里的补偿项",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-039.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-039.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-039",
+          "isTest": false,
+          "wordCount": 3616
+        },
+        {
+          "id": "volume-02/chapter-040",
+          "title": "第040章：供应商免责说明",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-040.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-040.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-040",
+          "isTest": false,
+          "wordCount": 3632
+        },
+        {
+          "id": "volume-02/chapter-041",
+          "title": "第041章：赫林的进度表",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-041.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-041.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-041",
+          "isTest": false,
+          "wordCount": 3766
         }
       ]
     }
@@ -810,6 +865,61 @@
       "pageUrl": "reader.html?chapter=volume-02/chapter-036",
       "isTest": false,
       "wordCount": 3329
+    },
+    {
+      "id": "volume-02/chapter-037",
+      "title": "第037章：百万分之一功率",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-037.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-037.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-037",
+      "isTest": false,
+      "wordCount": 3634
+    },
+    {
+      "id": "volume-02/chapter-038",
+      "title": "第038章：差一点再来一次",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-038.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-038.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-038",
+      "isTest": false,
+      "wordCount": 3803
+    },
+    {
+      "id": "volume-02/chapter-039",
+      "title": "第039章：不在说明书里的补偿项",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-039.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-039.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-039",
+      "isTest": false,
+      "wordCount": 3616
+    },
+    {
+      "id": "volume-02/chapter-040",
+      "title": "第040章：供应商免责说明",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-040.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-040.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-040",
+      "isTest": false,
+      "wordCount": 3632
+    },
+    {
+      "id": "volume-02/chapter-041",
+      "title": "第041章：赫林的进度表",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-041.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-041.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-041",
+      "isTest": false,
+      "wordCount": 3766
     }
   ]
 }
