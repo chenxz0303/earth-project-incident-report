@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "bookId": "earth-project-incident-report",
-  "updatedAt": "2026-07-12",
+  "updatedAt": "2026-07-17",
   "volumes": [
     {
       "id": "volume-01",
@@ -300,6 +300,61 @@
           "pageUrl": "reader.html?chapter=volume-02/chapter-026",
           "isTest": false,
           "wordCount": 3479
+        },
+        {
+          "id": "volume-02/chapter-027",
+          "title": "第027章：十三层汇报关系",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-027.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-027.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-027",
+          "isTest": false,
+          "wordCount": 3588
+        },
+        {
+          "id": "volume-02/chapter-028",
+          "title": "第028章：结构组说不是结构",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-028.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-028.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-028",
+          "isTest": false,
+          "wordCount": 3681
+        },
+        {
+          "id": "volume-02/chapter-029",
+          "title": "第029章：热流体组说温度正常",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-029.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-029.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-029",
+          "isTest": false,
+          "wordCount": 3475
+        },
+        {
+          "id": "volume-02/chapter-030",
+          "title": "第030章：被删掉的零点三度",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-030.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-030.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-030",
+          "isTest": false,
+          "wordCount": 3463
+        },
+        {
+          "id": "volume-02/chapter-031",
+          "title": "第031章：本来该消失的 K-217",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-031.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-031.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-031",
+          "isTest": false,
+          "wordCount": 3601
         }
       ]
     }
@@ -590,6 +645,61 @@
       "pageUrl": "reader.html?chapter=volume-02/chapter-026",
       "isTest": false,
       "wordCount": 3479
+    },
+    {
+      "id": "volume-02/chapter-027",
+      "title": "第027章：十三层汇报关系",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-027.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-027.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-027",
+      "isTest": false,
+      "wordCount": 3588
+    },
+    {
+      "id": "volume-02/chapter-028",
+      "title": "第028章：结构组说不是结构",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-028.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-028.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-028",
+      "isTest": false,
+      "wordCount": 3681
+    },
+    {
+      "id": "volume-02/chapter-029",
+      "title": "第029章：热流体组说温度正常",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-029.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-029.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-029",
+      "isTest": false,
+      "wordCount": 3475
+    },
+    {
+      "id": "volume-02/chapter-030",
+      "title": "第030章：被删掉的零点三度",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-030.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-030.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-030",
+      "isTest": false,
+      "wordCount": 3463
+    },
+    {
+      "id": "volume-02/chapter-031",
+      "title": "第031章：本来该消失的 K-217",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-031.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-031.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-031",
+      "isTest": false,
+      "wordCount": 3601
     }
   ]
 }
