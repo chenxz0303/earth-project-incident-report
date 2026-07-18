@@ -1029,6 +1029,61 @@
           "pageUrl": "reader.html?chapter=volume-04/chapter-091",
           "isTest": false,
           "wordCount": 3272
+        },
+        {
+          "id": "volume-04/chapter-092",
+          "title": "第092章：校验值藏在地震里",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-092.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-092.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-092",
+          "isTest": false,
+          "wordCount": 3144
+        },
+        {
+          "id": "volume-04/chapter-093",
+          "title": "第093章：证据被封存以后",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-093.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-093.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-093",
+          "isTest": false,
+          "wordCount": 3102
+        },
+        {
+          "id": "volume-04/chapter-094",
+          "title": "第094章：一份先付款后立项的合同",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-094.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-094.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-094",
+          "isTest": false,
+          "wordCount": 3162
+        },
+        {
+          "id": "volume-04/chapter-095",
+          "title": "第095章：洛岑的第一段留言",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-095.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-095.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-095",
+          "isTest": false,
+          "wordCount": 3043
+        },
+        {
+          "id": "volume-04/chapter-096",
+          "title": "第096章：问题比答案可靠",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-096.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-096.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-096",
+          "isTest": false,
+          "wordCount": 3003
         }
       ]
     }
@@ -2034,6 +2089,61 @@
       "pageUrl": "reader.html?chapter=volume-04/chapter-091",
       "isTest": false,
       "wordCount": 3272
+    },
+    {
+      "id": "volume-04/chapter-092",
+      "title": "第092章：校验值藏在地震里",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-092.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-092.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-092",
+      "isTest": false,
+      "wordCount": 3144
+    },
+    {
+      "id": "volume-04/chapter-093",
+      "title": "第093章：证据被封存以后",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-093.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-093.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-093",
+      "isTest": false,
+      "wordCount": 3102
+    },
+    {
+      "id": "volume-04/chapter-094",
+      "title": "第094章：一份先付款后立项的合同",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-094.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-094.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-094",
+      "isTest": false,
+      "wordCount": 3162
+    },
+    {
+      "id": "volume-04/chapter-095",
+      "title": "第095章：洛岑的第一段留言",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-095.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-095.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-095",
+      "isTest": false,
+      "wordCount": 3043
+    },
+    {
+      "id": "volume-04/chapter-096",
+      "title": "第096章：问题比答案可靠",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-096.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-096.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-096",
+      "isTest": false,
+      "wordCount": 3003
     }
   ]
 }
