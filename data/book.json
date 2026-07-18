@@ -18,8 +18,8 @@
   "bookInfoUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/data/book.json",
   "catalogUrl": "data/catalog.json",
   "catalogSourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/data/catalog.json",
-  "latestChapterTitle": "第051章：修复清单有三百页",
-  "latestChapterUrl": "chapters/volume-03/chapter-051.json",
+  "latestChapterTitle": "第056章：回滚也是一种进度",
+  "latestChapterUrl": "chapters/volume-03/chapter-056.json",
   "websiteUrl": "https://chenxz0303.github.io/earth-project-incident-report/",
   "updatedAt": "2026-07-18"
 }
