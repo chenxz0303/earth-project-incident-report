@@ -802,6 +802,68 @@
           "pageUrl": "reader.html?chapter=volume-03/chapter-071",
           "isTest": false,
           "wordCount": 3073
+        },
+        {
+          "id": "volume-03/chapter-072",
+          "title": "第072章：承包商的标准回复",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-072.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-072.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-072",
+          "isTest": false,
+          "wordCount": 3009
+        },
+        {
+          "id": "volume-03/chapter-073",
+          "title": "第073章：节点开始自毁",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-073.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-073.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-073",
+          "isTest": false,
+          "wordCount": 3017
+        },
+        {
+          "id": "volume-03/chapter-074",
+          "title": "第074章：先救人，再保存校验值",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-074.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-074.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-074",
+          "isTest": false,
+          "wordCount": 3002
+        },
+        {
+          "id": "volume-03/chapter-075",
+          "title": "第075章：删除是一种灭证方式",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-075.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-075.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-075",
+          "isTest": false,
+          "wordCount": 3049
+        }
+      ]
+    },
+    {
+      "id": "volume-04",
+      "title": "第四卷（暂定）：银河监管预审",
+      "summary": "银河监管提前介入并冻结大部分权限，陈默必须在证据残缺和身份受限的条件下，证明地球有资格参与定义自己的事故。",
+      "chapters": [
+        {
+          "id": "volume-04/chapter-076",
+          "title": "第076章：冻结通知先于调查官",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-076.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-076.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-076",
+          "isTest": false,
+          "wordCount": 3015
         }
       ]
     }
@@ -1587,6 +1649,61 @@
       "pageUrl": "reader.html?chapter=volume-03/chapter-071",
       "isTest": false,
       "wordCount": 3073
+    },
+    {
+      "id": "volume-03/chapter-072",
+      "title": "第072章：承包商的标准回复",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-072.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-072.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-072",
+      "isTest": false,
+      "wordCount": 3009
+    },
+    {
+      "id": "volume-03/chapter-073",
+      "title": "第073章：节点开始自毁",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-073.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-073.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-073",
+      "isTest": false,
+      "wordCount": 3017
+    },
+    {
+      "id": "volume-03/chapter-074",
+      "title": "第074章：先救人，再保存校验值",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-074.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-074.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-074",
+      "isTest": false,
+      "wordCount": 3002
+    },
+    {
+      "id": "volume-03/chapter-075",
+      "title": "第075章：删除是一种灭证方式",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-075.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-075.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-075",
+      "isTest": false,
+      "wordCount": 3049
+    },
+    {
+      "id": "volume-04/chapter-076",
+      "title": "第076章：冻结通知先于调查官",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-076.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-076.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-076",
+      "isTest": false,
+      "wordCount": 3015
     }
   ]
 }
