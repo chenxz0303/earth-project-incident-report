@@ -974,6 +974,61 @@
           "pageUrl": "reader.html?chapter=volume-04/chapter-086",
           "isTest": false,
           "wordCount": 3198
+        },
+        {
+          "id": "volume-04/chapter-087",
+          "title": "第087章：被删除的处置合同",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-087.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-087.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-087",
+          "isTest": false,
+          "wordCount": 3107
+        },
+        {
+          "id": "volume-04/chapter-088",
+          "title": "第088章：赵启明收到宇宙保密函",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-088.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-088.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-088",
+          "isTest": false,
+          "wordCount": 3058
+        },
+        {
+          "id": "volume-04/chapter-089",
+          "title": "第089章：一次没有发生的回滚",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-089.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-089.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-089",
+          "isTest": false,
+          "wordCount": 3258
+        },
+        {
+          "id": "volume-04/chapter-090",
+          "title": "第090章：芙娅的双重职责",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-090.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-090.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-090",
+          "isTest": false,
+          "wordCount": 3077
+        },
+        {
+          "id": "volume-04/chapter-091",
+          "title": "第091章：沉默被写成默认同意",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-091.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-091.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-091",
+          "isTest": false,
+          "wordCount": 3272
         }
       ]
     }
@@ -1924,6 +1979,61 @@
       "pageUrl": "reader.html?chapter=volume-04/chapter-086",
       "isTest": false,
       "wordCount": 3198
+    },
+    {
+      "id": "volume-04/chapter-087",
+      "title": "第087章：被删除的处置合同",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-087.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-087.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-087",
+      "isTest": false,
+      "wordCount": 3107
+    },
+    {
+      "id": "volume-04/chapter-088",
+      "title": "第088章：赵启明收到宇宙保密函",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-088.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-088.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-088",
+      "isTest": false,
+      "wordCount": 3058
+    },
+    {
+      "id": "volume-04/chapter-089",
+      "title": "第089章：一次没有发生的回滚",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-089.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-089.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-089",
+      "isTest": false,
+      "wordCount": 3258
+    },
+    {
+      "id": "volume-04/chapter-090",
+      "title": "第090章：芙娅的双重职责",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-090.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-090.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-090",
+      "isTest": false,
+      "wordCount": 3077
+    },
+    {
+      "id": "volume-04/chapter-091",
+      "title": "第091章：沉默被写成默认同意",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-091.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-091.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-091",
+      "isTest": false,
+      "wordCount": 3272
     }
   ]
 }
