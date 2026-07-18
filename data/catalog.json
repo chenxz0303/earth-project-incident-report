@@ -1084,6 +1084,67 @@
           "pageUrl": "reader.html?chapter=volume-04/chapter-096",
           "isTest": false,
           "wordCount": 3003
+        },
+        {
+          "id": "volume-04/chapter-097",
+          "title": "第097章：合法墙",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-097.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-097.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-097",
+          "isTest": false,
+          "wordCount": 3000
+        },
+        {
+          "id": "volume-04/chapter-098",
+          "title": "第098章：地球的七分钟",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-098.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-098.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-098",
+          "isTest": false,
+          "wordCount": 3037
+        },
+        {
+          "id": "volume-04/chapter-099",
+          "title": "第099章：临时当事方",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-099.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-099.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-099",
+          "isTest": false,
+          "wordCount": 3007
+        },
+        {
+          "id": "volume-04/chapter-100",
+          "title": "第100章：洛岑没有死",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-100.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-100.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-100",
+          "isTest": false,
+          "wordCount": 3072
+        }
+      ]
+    },
+    {
+      "id": "volume-05",
+      "title": "第五卷（暂定）：被篡改的试射报告",
+      "chapters": [
+        {
+          "id": "volume-05/chapter-101",
+          "title": "第101章：十四天联合任务组",
+          "volumeId": "volume-05",
+          "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+          "contentUrl": "chapters/volume-05/chapter-101.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-101.json",
+          "pageUrl": "reader.html?chapter=volume-05/chapter-101",
+          "isTest": false,
+          "wordCount": 3000
         }
       ]
     }
@@ -2144,6 +2205,61 @@
       "pageUrl": "reader.html?chapter=volume-04/chapter-096",
       "isTest": false,
       "wordCount": 3003
+    },
+    {
+      "id": "volume-04/chapter-097",
+      "title": "第097章：合法墙",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-097.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-097.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-097",
+      "isTest": false,
+      "wordCount": 3000
+    },
+    {
+      "id": "volume-04/chapter-098",
+      "title": "第098章：地球的七分钟",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-098.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-098.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-098",
+      "isTest": false,
+      "wordCount": 3037
+    },
+    {
+      "id": "volume-04/chapter-099",
+      "title": "第099章：临时当事方",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-099.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-099.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-099",
+      "isTest": false,
+      "wordCount": 3007
+    },
+    {
+      "id": "volume-04/chapter-100",
+      "title": "第100章：洛岑没有死",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-100.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-100.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-100",
+      "isTest": false,
+      "wordCount": 3072
+    },
+    {
+      "id": "volume-05/chapter-101",
+      "title": "第101章：十四天联合任务组",
+      "volumeId": "volume-05",
+      "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+      "contentUrl": "chapters/volume-05/chapter-101.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-101.json",
+      "pageUrl": "reader.html?chapter=volume-05/chapter-101",
+      "isTest": false,
+      "wordCount": 3000
     }
   ]
 }
