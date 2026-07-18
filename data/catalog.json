@@ -864,6 +864,61 @@
           "pageUrl": "reader.html?chapter=volume-04/chapter-076",
           "isTest": false,
           "wordCount": 3015
+        },
+        {
+          "id": "volume-04/chapter-077",
+          "title": "第077章：监管官闻铎",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-077.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-077.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-077",
+          "isTest": false,
+          "wordCount": 3277
+        },
+        {
+          "id": "volume-04/chapter-078",
+          "title": "第078章：第一百零七号证据袋",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-078.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-078.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-078",
+          "isTest": false,
+          "wordCount": 3074
+        },
+        {
+          "id": "volume-04/chapter-079",
+          "title": "第079章：地球能不能坐在桌边",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-079.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-079.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-079",
+          "isTest": false,
+          "wordCount": 3077
+        },
+        {
+          "id": "volume-04/chapter-080",
+          "title": "第080章：临时席位",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-080.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-080.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-080",
+          "isTest": false,
+          "wordCount": 3085
+        },
+        {
+          "id": "volume-04/chapter-081",
+          "title": "第081章：预听证第一次开会",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-081.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-081.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-081",
+          "isTest": false,
+          "wordCount": 3018
         }
       ]
     }
@@ -1704,6 +1759,61 @@
       "pageUrl": "reader.html?chapter=volume-04/chapter-076",
       "isTest": false,
       "wordCount": 3015
+    },
+    {
+      "id": "volume-04/chapter-077",
+      "title": "第077章：监管官闻铎",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-077.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-077.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-077",
+      "isTest": false,
+      "wordCount": 3277
+    },
+    {
+      "id": "volume-04/chapter-078",
+      "title": "第078章：第一百零七号证据袋",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-078.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-078.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-078",
+      "isTest": false,
+      "wordCount": 3074
+    },
+    {
+      "id": "volume-04/chapter-079",
+      "title": "第079章：地球能不能坐在桌边",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-079.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-079.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-079",
+      "isTest": false,
+      "wordCount": 3077
+    },
+    {
+      "id": "volume-04/chapter-080",
+      "title": "第080章：临时席位",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-080.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-080.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-080",
+      "isTest": false,
+      "wordCount": 3085
+    },
+    {
+      "id": "volume-04/chapter-081",
+      "title": "第081章：预听证第一次开会",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-081.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-081.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-081",
+      "isTest": false,
+      "wordCount": 3018
     }
   ]
 }
