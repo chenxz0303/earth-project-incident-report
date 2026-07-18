@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "bookId": "earth-project-incident-report",
-  "updatedAt": "2026-07-18",
+  "updatedAt": "2026-07-19",
   "volumes": [
     {
       "id": "volume-01",
@@ -919,6 +919,61 @@
           "pageUrl": "reader.html?chapter=volume-04/chapter-081",
           "isTest": false,
           "wordCount": 3018
+        },
+        {
+          "id": "volume-04/chapter-082",
+          "title": "第082章：赫林不肯当唯一责任人",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-082.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-082.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-082",
+          "isTest": false,
+          "wordCount": 3042
+        },
+        {
+          "id": "volume-04/chapter-083",
+          "title": "第083章：过期模型不能证明今天",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-083.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-083.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-083",
+          "isTest": false,
+          "wordCount": 3046
+        },
+        {
+          "id": "volume-04/chapter-084",
+          "title": "第084章：乌尔澄的原始采样",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-084.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-084.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-084",
+          "isTest": false,
+          "wordCount": 3009
+        },
+        {
+          "id": "volume-04/chapter-085",
+          "title": "第085章：消失的历史管理员",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-085.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-085.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-085",
+          "isTest": false,
+          "wordCount": 3004
+        },
+        {
+          "id": "volume-04/chapter-086",
+          "title": "第086章：K-217-E的来历",
+          "volumeId": "volume-04",
+          "volumeTitle": "第四卷（暂定）：银河监管预审",
+          "contentUrl": "chapters/volume-04/chapter-086.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-086.json",
+          "pageUrl": "reader.html?chapter=volume-04/chapter-086",
+          "isTest": false,
+          "wordCount": 3198
         }
       ]
     }
@@ -1814,6 +1869,61 @@
       "pageUrl": "reader.html?chapter=volume-04/chapter-081",
       "isTest": false,
       "wordCount": 3018
+    },
+    {
+      "id": "volume-04/chapter-082",
+      "title": "第082章：赫林不肯当唯一责任人",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-082.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-082.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-082",
+      "isTest": false,
+      "wordCount": 3042
+    },
+    {
+      "id": "volume-04/chapter-083",
+      "title": "第083章：过期模型不能证明今天",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-083.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-083.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-083",
+      "isTest": false,
+      "wordCount": 3046
+    },
+    {
+      "id": "volume-04/chapter-084",
+      "title": "第084章：乌尔澄的原始采样",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-084.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-084.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-084",
+      "isTest": false,
+      "wordCount": 3009
+    },
+    {
+      "id": "volume-04/chapter-085",
+      "title": "第085章：消失的历史管理员",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-085.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-085.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-085",
+      "isTest": false,
+      "wordCount": 3004
+    },
+    {
+      "id": "volume-04/chapter-086",
+      "title": "第086章：K-217-E的来历",
+      "volumeId": "volume-04",
+      "volumeTitle": "第四卷（暂定）：银河监管预审",
+      "contentUrl": "chapters/volume-04/chapter-086.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-04/chapter-086.json",
+      "pageUrl": "reader.html?chapter=volume-04/chapter-086",
+      "isTest": false,
+      "wordCount": 3198
     }
   ]
 }
