@@ -520,6 +520,68 @@
           "pageUrl": "reader.html?chapter=volume-02/chapter-046",
           "isTest": false,
           "wordCount": 3089
+        },
+        {
+          "id": "volume-02/chapter-047",
+          "title": "第047章：发射前零点八秒",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-047.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-047.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-047",
+          "isTest": false,
+          "wordCount": 3052
+        },
+        {
+          "id": "volume-02/chapter-048",
+          "title": "第048章：日志中间少了一口气",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-048.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-048.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-048",
+          "isTest": false,
+          "wordCount": 3080
+        },
+        {
+          "id": "volume-02/chapter-049",
+          "title": "第049章：来自档案室的指令",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-049.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-049.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-049",
+          "isTest": false,
+          "wordCount": 3000
+        },
+        {
+          "id": "volume-02/chapter-050",
+          "title": "第050章：有人记得地球的旧名字",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-050.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-050.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-050",
+          "isTest": false,
+          "wordCount": 3216
+        }
+      ]
+    },
+    {
+      "id": "volume-03",
+      "title": "第三卷（暂定）：地球补丁上线",
+      "summary": "调查组返回地球修复现实裂缝，在局部补丁与系统副作用之间建立可验证、可回退的修复方法，并追查长期隐藏的数据抽取节点。",
+      "chapters": [
+        {
+          "id": "volume-03/chapter-051",
+          "title": "第051章：修复清单有三百页",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-051.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-051.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-051",
+          "isTest": false,
+          "wordCount": 3048
         }
       ]
     }
@@ -1030,6 +1092,61 @@
       "pageUrl": "reader.html?chapter=volume-02/chapter-046",
       "isTest": false,
       "wordCount": 3089
+    },
+    {
+      "id": "volume-02/chapter-047",
+      "title": "第047章：发射前零点八秒",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-047.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-047.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-047",
+      "isTest": false,
+      "wordCount": 3052
+    },
+    {
+      "id": "volume-02/chapter-048",
+      "title": "第048章：日志中间少了一口气",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-048.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-048.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-048",
+      "isTest": false,
+      "wordCount": 3080
+    },
+    {
+      "id": "volume-02/chapter-049",
+      "title": "第049章：来自档案室的指令",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-049.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-049.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-049",
+      "isTest": false,
+      "wordCount": 3000
+    },
+    {
+      "id": "volume-02/chapter-050",
+      "title": "第050章：有人记得地球的旧名字",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-050.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-050.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-050",
+      "isTest": false,
+      "wordCount": 3216
+    },
+    {
+      "id": "volume-03/chapter-051",
+      "title": "第051章：修复清单有三百页",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-051.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-051.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-051",
+      "isTest": false,
+      "wordCount": 3048
     }
   ]
 }
