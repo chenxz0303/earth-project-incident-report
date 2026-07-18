@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "bookId": "earth-project-incident-report",
-  "updatedAt": "2026-07-17",
+  "updatedAt": "2026-07-18",
   "volumes": [
     {
       "id": "volume-01",
@@ -465,6 +465,61 @@
           "pageUrl": "reader.html?chapter=volume-02/chapter-041",
           "isTest": false,
           "wordCount": 3766
+        },
+        {
+          "id": "volume-02/chapter-042",
+          "title": "第042章：一场提前结束的评审",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-042.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-042.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-042",
+          "isTest": false,
+          "wordCount": 3442
+        },
+        {
+          "id": "volume-02/chapter-043",
+          "title": "第043章：两份都正确的报告",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-043.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-043.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-043",
+          "isTest": false,
+          "wordCount": 3121
+        },
+        {
+          "id": "volume-02/chapter-044",
+          "title": "第044章：冷却阀晚了4毫秒",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-044.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-044.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-044",
+          "isTest": false,
+          "wordCount": 3015
+        },
+        {
+          "id": "volume-02/chapter-045",
+          "title": "第045章：舰体只弯了一点点",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-045.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-045.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-045",
+          "isTest": false,
+          "wordCount": 3068
+        },
+        {
+          "id": "volume-02/chapter-046",
+          "title": "第046章：第一版联合模型",
+          "volumeId": "volume-02",
+          "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+          "contentUrl": "chapters/volume-02/chapter-046.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-046.json",
+          "pageUrl": "reader.html?chapter=volume-02/chapter-046",
+          "isTest": false,
+          "wordCount": 3089
         }
       ]
     }
@@ -920,6 +975,61 @@
       "pageUrl": "reader.html?chapter=volume-02/chapter-041",
       "isTest": false,
       "wordCount": 3766
+    },
+    {
+      "id": "volume-02/chapter-042",
+      "title": "第042章：一场提前结束的评审",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-042.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-042.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-042",
+      "isTest": false,
+      "wordCount": 3442
+    },
+    {
+      "id": "volume-02/chapter-043",
+      "title": "第043章：两份都正确的报告",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-043.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-043.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-043",
+      "isTest": false,
+      "wordCount": 3121
+    },
+    {
+      "id": "volume-02/chapter-044",
+      "title": "第044章：冷却阀晚了4毫秒",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-044.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-044.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-044",
+      "isTest": false,
+      "wordCount": 3015
+    },
+    {
+      "id": "volume-02/chapter-045",
+      "title": "第045章：舰体只弯了一点点",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-045.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-045.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-045",
+      "isTest": false,
+      "wordCount": 3068
+    },
+    {
+      "id": "volume-02/chapter-046",
+      "title": "第046章：第一版联合模型",
+      "volumeId": "volume-02",
+      "volumeTitle": "第二卷（暂定）：歼星舰事故组",
+      "contentUrl": "chapters/volume-02/chapter-046.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-02/chapter-046.json",
+      "pageUrl": "reader.html?chapter=volume-02/chapter-046",
+      "isTest": false,
+      "wordCount": 3089
     }
   ]
 }
