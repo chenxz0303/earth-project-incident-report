@@ -747,6 +747,61 @@
           "pageUrl": "reader.html?chapter=volume-03/chapter-066",
           "isTest": false,
           "wordCount": 3138
+        },
+        {
+          "id": "volume-03/chapter-067",
+          "title": "第067章：相同的水印",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-067.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-067.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-067",
+          "isTest": false,
+          "wordCount": 3230
+        },
+        {
+          "id": "volume-03/chapter-068",
+          "title": "第068章：排队总是同一个人先到",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-068.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-068.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-068",
+          "isTest": false,
+          "wordCount": 3099
+        },
+        {
+          "id": "volume-03/chapter-069",
+          "title": "第069章：谁拥有我们的选择",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-069.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-069.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-069",
+          "isTest": false,
+          "wordCount": 3138
+        },
+        {
+          "id": "volume-03/chapter-070",
+          "title": "第070章：价格表上的文明",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-070.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-070.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-070",
+          "isTest": false,
+          "wordCount": 3102
+        },
+        {
+          "id": "volume-03/chapter-071",
+          "title": "第071章：一份无法正常提交的举报",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-071.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-071.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-071",
+          "isTest": false,
+          "wordCount": 3073
         }
       ]
     }
@@ -1477,6 +1532,61 @@
       "pageUrl": "reader.html?chapter=volume-03/chapter-066",
       "isTest": false,
       "wordCount": 3138
+    },
+    {
+      "id": "volume-03/chapter-067",
+      "title": "第067章：相同的水印",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-067.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-067.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-067",
+      "isTest": false,
+      "wordCount": 3230
+    },
+    {
+      "id": "volume-03/chapter-068",
+      "title": "第068章：排队总是同一个人先到",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-068.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-068.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-068",
+      "isTest": false,
+      "wordCount": 3099
+    },
+    {
+      "id": "volume-03/chapter-069",
+      "title": "第069章：谁拥有我们的选择",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-069.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-069.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-069",
+      "isTest": false,
+      "wordCount": 3138
+    },
+    {
+      "id": "volume-03/chapter-070",
+      "title": "第070章：价格表上的文明",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-070.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-070.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-070",
+      "isTest": false,
+      "wordCount": 3102
+    },
+    {
+      "id": "volume-03/chapter-071",
+      "title": "第071章：一份无法正常提交的举报",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-071.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-071.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-071",
+      "isTest": false,
+      "wordCount": 3073
     }
   ]
 }
