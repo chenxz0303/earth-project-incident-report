@@ -637,6 +637,61 @@
           "pageUrl": "reader.html?chapter=volume-03/chapter-056",
           "isTest": false,
           "wordCount": 3234
+        },
+        {
+          "id": "volume-03/chapter-057",
+          "title": "第057章：一键修复按钮",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-057.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-057.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-057",
+          "isTest": false,
+          "wordCount": 3170
+        },
+        {
+          "id": "volume-03/chapter-058",
+          "title": "第058章：我不同意上线",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-058.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-058.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-058",
+          "isTest": false,
+          "wordCount": 3081
+        },
+        {
+          "id": "volume-03/chapter-059",
+          "title": "第059章：异常节点会呼吸",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-059.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-059.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-059",
+          "isTest": false,
+          "wordCount": 3109
+        },
+        {
+          "id": "volume-03/chapter-060",
+          "title": "第060章：旧机房没有资产编号",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-060.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-060.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-060",
+          "isTest": false,
+          "wordCount": 3021
+        },
+        {
+          "id": "volume-03/chapter-061",
+          "title": "第061章：唐可的天气模型",
+          "volumeId": "volume-03",
+          "volumeTitle": "第三卷（暂定）：地球补丁上线",
+          "contentUrl": "chapters/volume-03/chapter-061.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-061.json",
+          "pageUrl": "reader.html?chapter=volume-03/chapter-061",
+          "isTest": false,
+          "wordCount": 3101
         }
       ]
     }
@@ -1257,6 +1312,61 @@
       "pageUrl": "reader.html?chapter=volume-03/chapter-056",
       "isTest": false,
       "wordCount": 3234
+    },
+    {
+      "id": "volume-03/chapter-057",
+      "title": "第057章：一键修复按钮",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-057.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-057.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-057",
+      "isTest": false,
+      "wordCount": 3170
+    },
+    {
+      "id": "volume-03/chapter-058",
+      "title": "第058章：我不同意上线",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-058.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-058.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-058",
+      "isTest": false,
+      "wordCount": 3081
+    },
+    {
+      "id": "volume-03/chapter-059",
+      "title": "第059章：异常节点会呼吸",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-059.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-059.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-059",
+      "isTest": false,
+      "wordCount": 3109
+    },
+    {
+      "id": "volume-03/chapter-060",
+      "title": "第060章：旧机房没有资产编号",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-060.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-060.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-060",
+      "isTest": false,
+      "wordCount": 3021
+    },
+    {
+      "id": "volume-03/chapter-061",
+      "title": "第061章：唐可的天气模型",
+      "volumeId": "volume-03",
+      "volumeTitle": "第三卷（暂定）：地球补丁上线",
+      "contentUrl": "chapters/volume-03/chapter-061.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-03/chapter-061.json",
+      "pageUrl": "reader.html?chapter=volume-03/chapter-061",
+      "isTest": false,
+      "wordCount": 3101
     }
   ]
 }
