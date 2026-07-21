@@ -1255,6 +1255,17 @@
           "pageUrl": "reader.html?chapter=volume-05/chapter-111",
           "isTest": false,
           "wordCount": 3452
+        },
+        {
+          "id": "volume-05/chapter-112",
+          "title": "第112章：洛岑记得阀门声",
+          "volumeId": "volume-05",
+          "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+          "contentUrl": "chapters/volume-05/chapter-112.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-112.json",
+          "pageUrl": "reader.html?chapter=volume-05/chapter-112",
+          "isTest": false,
+          "wordCount": 3326
         }
       ]
     }
@@ -2480,6 +2491,17 @@
       "pageUrl": "reader.html?chapter=volume-05/chapter-111",
       "isTest": false,
       "wordCount": 3452
+    },
+    {
+      "id": "volume-05/chapter-112",
+      "title": "第112章：洛岑记得阀门声",
+      "volumeId": "volume-05",
+      "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+      "contentUrl": "chapters/volume-05/chapter-112.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-112.json",
+      "pageUrl": "reader.html?chapter=volume-05/chapter-112",
+      "isTest": false,
+      "wordCount": 3326
     }
   ]
 }
