@@ -1310,6 +1310,61 @@
           "pageUrl": "reader.html?chapter=volume-05/chapter-116",
           "isTest": false,
           "wordCount": 3027
+        },
+        {
+          "id": "volume-05/chapter-117",
+          "title": "第117章：观察席不只观察",
+          "volumeId": "volume-05",
+          "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+          "contentUrl": "chapters/volume-05/chapter-117.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-117.json",
+          "pageUrl": "reader.html?chapter=volume-05/chapter-117",
+          "isTest": false,
+          "wordCount": 3012
+        },
+        {
+          "id": "volume-05/chapter-118",
+          "title": "第118章：赛珞的反向报告",
+          "volumeId": "volume-05",
+          "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+          "contentUrl": "chapters/volume-05/chapter-118.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-118.json",
+          "pageUrl": "reader.html?chapter=volume-05/chapter-118",
+          "isTest": false,
+          "wordCount": 3018
+        },
+        {
+          "id": "volume-05/chapter-119",
+          "title": "第119章：我只签我做过的事",
+          "volumeId": "volume-05",
+          "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+          "contentUrl": "chapters/volume-05/chapter-119.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-119.json",
+          "pageUrl": "reader.html?chapter=volume-05/chapter-119",
+          "isTest": false,
+          "wordCount": 3000
+        },
+        {
+          "id": "volume-05/chapter-120",
+          "title": "第120章：联络官不在场的会议",
+          "volumeId": "volume-05",
+          "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+          "contentUrl": "chapters/volume-05/chapter-120.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-120.json",
+          "pageUrl": "reader.html?chapter=volume-05/chapter-120",
+          "isTest": false,
+          "wordCount": 3248
+        },
+        {
+          "id": "volume-05/chapter-121",
+          "title": "第121章：完整事故重演",
+          "volumeId": "volume-05",
+          "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+          "contentUrl": "chapters/volume-05/chapter-121.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-121.json",
+          "pageUrl": "reader.html?chapter=volume-05/chapter-121",
+          "isTest": false,
+          "wordCount": 3297
         }
       ]
     }
@@ -2590,6 +2645,61 @@
       "pageUrl": "reader.html?chapter=volume-05/chapter-116",
       "isTest": false,
       "wordCount": 3027
+    },
+    {
+      "id": "volume-05/chapter-117",
+      "title": "第117章：观察席不只观察",
+      "volumeId": "volume-05",
+      "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+      "contentUrl": "chapters/volume-05/chapter-117.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-117.json",
+      "pageUrl": "reader.html?chapter=volume-05/chapter-117",
+      "isTest": false,
+      "wordCount": 3012
+    },
+    {
+      "id": "volume-05/chapter-118",
+      "title": "第118章：赛珞的反向报告",
+      "volumeId": "volume-05",
+      "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+      "contentUrl": "chapters/volume-05/chapter-118.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-118.json",
+      "pageUrl": "reader.html?chapter=volume-05/chapter-118",
+      "isTest": false,
+      "wordCount": 3018
+    },
+    {
+      "id": "volume-05/chapter-119",
+      "title": "第119章：我只签我做过的事",
+      "volumeId": "volume-05",
+      "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+      "contentUrl": "chapters/volume-05/chapter-119.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-119.json",
+      "pageUrl": "reader.html?chapter=volume-05/chapter-119",
+      "isTest": false,
+      "wordCount": 3000
+    },
+    {
+      "id": "volume-05/chapter-120",
+      "title": "第120章：联络官不在场的会议",
+      "volumeId": "volume-05",
+      "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+      "contentUrl": "chapters/volume-05/chapter-120.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-120.json",
+      "pageUrl": "reader.html?chapter=volume-05/chapter-120",
+      "isTest": false,
+      "wordCount": 3248
+    },
+    {
+      "id": "volume-05/chapter-121",
+      "title": "第121章：完整事故重演",
+      "volumeId": "volume-05",
+      "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+      "contentUrl": "chapters/volume-05/chapter-121.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-121.json",
+      "pageUrl": "reader.html?chapter=volume-05/chapter-121",
+      "isTest": false,
+      "wordCount": 3297
     }
   ]
 }
