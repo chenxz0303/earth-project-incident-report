@@ -18,8 +18,8 @@
   "bookInfoUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/data/book.json",
   "catalogUrl": "data/catalog.json",
   "catalogSourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/data/catalog.json",
-  "latestChapterTitle": "第106章：自动错误不会这么精确",
-  "latestChapterUrl": "chapters/volume-05/chapter-106.json",
+  "latestChapterTitle": "第111章：第一次复现失败",
+  "latestChapterUrl": "chapters/volume-05/chapter-111.json",
   "websiteUrl": "https://chenxz0303.github.io/earth-project-incident-report/",
-  "updatedAt": "2026-07-19"
+  "updatedAt": "2026-07-21"
 }
