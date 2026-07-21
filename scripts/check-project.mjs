@@ -1,4 +1,4 @@
-import { access, readFile } from "node:fs/promises";
+import { access, readFile, readdir } from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 
@@ -63,6 +63,29 @@ if (catalog) {
     if (new Set(flatIds).size !== flatIds.length) fail("扁平章节目录存在重复 id");
     if (JSON.stringify(flatIds) !== JSON.stringify(nestedIds)) fail("分卷目录与扁平章节目录顺序或内容不一致");
 
+    const diskChapterUrls = [];
+    const chapterRoot = path.join(root, "chapters");
+    for (const volumeEntry of await readdir(chapterRoot, { withFileTypes: true })) {
+      if (!volumeEntry.isDirectory()) continue;
+      const volumePath = path.join(chapterRoot, volumeEntry.name);
+      for (const chapterEntry of await readdir(volumePath, { withFileTypes: true })) {
+        if (!chapterEntry.isFile() || !/^chapter-\d{3}\.json$/.test(chapterEntry.name)) continue;
+        diskChapterUrls.push(`chapters/${volumeEntry.name}/${chapterEntry.name}`);
+      }
+    }
+
+    const catalogUrls = new Set(catalog.chapters.map((chapter) => chapter.contentUrl));
+    for (const chapterUrl of diskChapterUrls) {
+      const content = await readJson(chapterUrl);
+      if (!content) continue;
+      if (!["canon", "non-canon"].includes(content.status)) {
+        fail(`${chapterUrl} 的 status 必须是 canon 或 non-canon`);
+      }
+      if (!catalogUrls.has(chapterUrl)) {
+        fail(`章节文件未进入目录：${chapterUrl}`);
+      }
+    }
+
     for (const chapter of catalog.chapters) {
       if (!chapter.id || !chapter.title || !chapter.contentUrl || !chapter.pageUrl) {
         fail(`章节条目字段不完整：${JSON.stringify(chapter)}`);
@@ -80,8 +103,12 @@ if (catalog) {
       }
       const content = await readJson(chapter.contentUrl);
       if (!content) continue;
+      if (content.schemaVersion !== 1) fail(`${chapter.contentUrl} 的 schemaVersion 必须为 1`);
+      if (content.bookId !== book?.id) fail(`${chapter.contentUrl} 的 bookId 与书籍信息不一致`);
       if (content.id !== chapter.id) fail(`${chapter.contentUrl} 的 id 与目录不一致`);
       if (content.title !== chapter.title) fail(`${chapter.contentUrl} 的标题与目录不一致`);
+      if (content.volumeId !== chapter.volumeId) fail(`${chapter.contentUrl} 的 volumeId 与目录不一致`);
+      if (content.volumeTitle !== chapter.volumeTitle) fail(`${chapter.contentUrl} 的 volumeTitle 与目录不一致`);
       if (!Array.isArray(content.content) || content.content.length === 0) fail(`${chapter.contentUrl} 没有正文段落数组`);
       if (chapter.isTest) {
         if (content.status !== "non-canon" || content.isTest !== true) fail(`${chapter.contentUrl} 的测试章状态错误`);

@@ -1365,6 +1365,68 @@
           "pageUrl": "reader.html?chapter=volume-05/chapter-121",
           "isTest": false,
           "wordCount": 3297
+        },
+        {
+          "id": "volume-05/chapter-122",
+          "title": "第122章：远程灭证程序",
+          "volumeId": "volume-05",
+          "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+          "contentUrl": "chapters/volume-05/chapter-122.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-122.json",
+          "pageUrl": "reader.html?chapter=volume-05/chapter-122",
+          "isTest": false,
+          "wordCount": 3128
+        },
+        {
+          "id": "volume-05/chapter-123",
+          "title": "第123章：最小修改原则",
+          "volumeId": "volume-05",
+          "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+          "contentUrl": "chapters/volume-05/chapter-123.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-123.json",
+          "pageUrl": "reader.html?chapter=volume-05/chapter-123",
+          "isTest": false,
+          "wordCount": 3100
+        },
+        {
+          "id": "volume-05/chapter-124",
+          "title": "第124章：四层责任闭合",
+          "volumeId": "volume-05",
+          "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+          "contentUrl": "chapters/volume-05/chapter-124.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-124.json",
+          "pageUrl": "reader.html?chapter=volume-05/chapter-124",
+          "isTest": false,
+          "wordCount": 3170
+        },
+        {
+          "id": "volume-05/chapter-125",
+          "title": "第125章：裂纹开始自己生长",
+          "volumeId": "volume-05",
+          "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+          "contentUrl": "chapters/volume-05/chapter-125.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-125.json",
+          "pageUrl": "reader.html?chapter=volume-05/chapter-125",
+          "isTest": false,
+          "wordCount": 3265
+        }
+      ]
+    },
+    {
+      "id": "volume-06",
+      "title": "第六卷（暂定）：最终事故调查报告",
+      "summary": "根裂纹进入72小时倒计时，陈默必须让修复、最终听证与事故报告并行推进，在不隐瞒责任和剩余风险的前提下证明地球应被保留。",
+      "chapters": [
+        {
+          "id": "volume-06/chapter-126",
+          "title": "第126章：七十二小时",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-126.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-126.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-126",
+          "isTest": false,
+          "wordCount": 3453
         }
       ]
     }
@@ -2700,6 +2762,61 @@
       "pageUrl": "reader.html?chapter=volume-05/chapter-121",
       "isTest": false,
       "wordCount": 3297
+    },
+    {
+      "id": "volume-05/chapter-122",
+      "title": "第122章：远程灭证程序",
+      "volumeId": "volume-05",
+      "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+      "contentUrl": "chapters/volume-05/chapter-122.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-122.json",
+      "pageUrl": "reader.html?chapter=volume-05/chapter-122",
+      "isTest": false,
+      "wordCount": 3128
+    },
+    {
+      "id": "volume-05/chapter-123",
+      "title": "第123章：最小修改原则",
+      "volumeId": "volume-05",
+      "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+      "contentUrl": "chapters/volume-05/chapter-123.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-123.json",
+      "pageUrl": "reader.html?chapter=volume-05/chapter-123",
+      "isTest": false,
+      "wordCount": 3100
+    },
+    {
+      "id": "volume-05/chapter-124",
+      "title": "第124章：四层责任闭合",
+      "volumeId": "volume-05",
+      "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+      "contentUrl": "chapters/volume-05/chapter-124.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-124.json",
+      "pageUrl": "reader.html?chapter=volume-05/chapter-124",
+      "isTest": false,
+      "wordCount": 3170
+    },
+    {
+      "id": "volume-05/chapter-125",
+      "title": "第125章：裂纹开始自己生长",
+      "volumeId": "volume-05",
+      "volumeTitle": "第五卷（暂定）：被篡改的试射报告",
+      "contentUrl": "chapters/volume-05/chapter-125.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-05/chapter-125.json",
+      "pageUrl": "reader.html?chapter=volume-05/chapter-125",
+      "isTest": false,
+      "wordCount": 3265
+    },
+    {
+      "id": "volume-06/chapter-126",
+      "title": "第126章：七十二小时",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-126.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-126.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-126",
+      "isTest": false,
+      "wordCount": 3453
     }
   ]
 }
