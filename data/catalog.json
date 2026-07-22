@@ -1482,6 +1482,61 @@
           "pageUrl": "reader.html?chapter=volume-06/chapter-131",
           "isTest": false,
           "wordCount": 3063
+        },
+        {
+          "id": "volume-06/chapter-132",
+          "title": "第132章：地球人的无意协作",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-132.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-132.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-132",
+          "isTest": false,
+          "wordCount": 3008
+        },
+        {
+          "id": "volume-06/chapter-133",
+          "title": "第133章：赫林签字",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-133.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-133.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-133",
+          "isTest": false,
+          "wordCount": 3005
+        },
+        {
+          "id": "volume-06/chapter-134",
+          "title": "第134章：两个专业组终于一张图",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-134.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-134.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-134",
+          "isTest": false,
+          "wordCount": 3000
+        },
+        {
+          "id": "volume-06/chapter-135",
+          "title": "第135章：芙娅作为证人回来",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-135.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-135.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-135",
+          "isTest": false,
+          "wordCount": 3021
+        },
+        {
+          "id": "volume-06/chapter-136",
+          "title": "第136章：最终听证开始",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-136.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-136.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-136",
+          "isTest": false,
+          "wordCount": 3025
         }
       ]
     }
@@ -2927,6 +2982,61 @@
       "pageUrl": "reader.html?chapter=volume-06/chapter-131",
       "isTest": false,
       "wordCount": 3063
+    },
+    {
+      "id": "volume-06/chapter-132",
+      "title": "第132章：地球人的无意协作",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-132.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-132.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-132",
+      "isTest": false,
+      "wordCount": 3008
+    },
+    {
+      "id": "volume-06/chapter-133",
+      "title": "第133章：赫林签字",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-133.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-133.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-133",
+      "isTest": false,
+      "wordCount": 3005
+    },
+    {
+      "id": "volume-06/chapter-134",
+      "title": "第134章：两个专业组终于一张图",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-134.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-134.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-134",
+      "isTest": false,
+      "wordCount": 3000
+    },
+    {
+      "id": "volume-06/chapter-135",
+      "title": "第135章：芙娅作为证人回来",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-135.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-135.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-135",
+      "isTest": false,
+      "wordCount": 3021
+    },
+    {
+      "id": "volume-06/chapter-136",
+      "title": "第136章：最终听证开始",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-136.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-136.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-136",
+      "isTest": false,
+      "wordCount": 3025
     }
   ]
 }
