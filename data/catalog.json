@@ -1537,6 +1537,61 @@
           "pageUrl": "reader.html?chapter=volume-06/chapter-136",
           "isTest": false,
           "wordCount": 3025
+        },
+        {
+          "id": "volume-06/chapter-137",
+          "title": "第137章：备份不是原件",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-137.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-137.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-137",
+          "isTest": false,
+          "wordCount": 3001
+        },
+        {
+          "id": "volume-06/chapter-138",
+          "title": "第138章：剩余风险不是零",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-138.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-138.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-138",
+          "isTest": false,
+          "wordCount": 3000
+        },
+        {
+          "id": "volume-06/chapter-139",
+          "title": "第139章：赛珞的最后一份附件",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-139.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-139.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-139",
+          "isTest": false,
+          "wordCount": 3008
+        },
+        {
+          "id": "volume-06/chapter-140",
+          "title": "第140章：谁在污染谁",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-140.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-140.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-140",
+          "isTest": false,
+          "wordCount": 3030
+        },
+        {
+          "id": "volume-06/chapter-141",
+          "title": "第141章：第二阶段：闭合根裂纹",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-141.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-141.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-141",
+          "isTest": false,
+          "wordCount": 3040
         }
       ]
     }
@@ -3037,6 +3092,61 @@
       "pageUrl": "reader.html?chapter=volume-06/chapter-136",
       "isTest": false,
       "wordCount": 3025
+    },
+    {
+      "id": "volume-06/chapter-137",
+      "title": "第137章：备份不是原件",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-137.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-137.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-137",
+      "isTest": false,
+      "wordCount": 3001
+    },
+    {
+      "id": "volume-06/chapter-138",
+      "title": "第138章：剩余风险不是零",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-138.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-138.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-138",
+      "isTest": false,
+      "wordCount": 3000
+    },
+    {
+      "id": "volume-06/chapter-139",
+      "title": "第139章：赛珞的最后一份附件",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-139.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-139.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-139",
+      "isTest": false,
+      "wordCount": 3008
+    },
+    {
+      "id": "volume-06/chapter-140",
+      "title": "第140章：谁在污染谁",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-140.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-140.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-140",
+      "isTest": false,
+      "wordCount": 3030
+    },
+    {
+      "id": "volume-06/chapter-141",
+      "title": "第141章：第二阶段：闭合根裂纹",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-141.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-141.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-141",
+      "isTest": false,
+      "wordCount": 3040
     }
   ]
 }
