@@ -4,8 +4,8 @@
   "title": "地球项目事故调查报告",
   "author": "陈默项目组",
   "language": "zh-CN",
-  "publicationStage": "serializing",
-  "status": "连载中",
+  "publicationStage": "complete",
+  "status": "已完结",
   "targetWords": "约50万字",
   "description": "地球是高等文明运行的社会仿真项目。一艘外星歼星舰试射时击穿了地球底层参数，普通仿真工程师陈默意外获得有限的现实参数修改权限，并被要求协助调查事故、修复异常、写出一份既不撒谎又能保住地球的事故报告。",
   "tags": [
@@ -18,8 +18,8 @@
   "bookInfoUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/data/book.json",
   "catalogUrl": "data/catalog.json",
   "catalogSourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/data/catalog.json",
-  "latestChapterTitle": "第146章：表决之前",
-  "latestChapterUrl": "chapters/volume-06/chapter-146.json",
+  "latestChapterTitle": "第150章：来自上层的访问申请",
+  "latestChapterUrl": "chapters/volume-06/chapter-150.json",
   "websiteUrl": "https://chenxz0303.github.io/earth-project-incident-report/",
   "updatedAt": "2026-07-22"
 }

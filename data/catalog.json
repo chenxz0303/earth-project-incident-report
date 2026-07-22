@@ -1647,6 +1647,50 @@
           "pageUrl": "reader.html?chapter=volume-06/chapter-146",
           "isTest": false,
           "wordCount": 3048
+        },
+        {
+          "id": "volume-06/chapter-147",
+          "title": "第147章：受保护的自主项目",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-147.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-147.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-147",
+          "isTest": false,
+          "wordCount": 3055
+        },
+        {
+          "id": "volume-06/chapter-148",
+          "title": "第148章：每个人承担自己的部分",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-148.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-148.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-148",
+          "isTest": false,
+          "wordCount": 3027
+        },
+        {
+          "id": "volume-06/chapter-149",
+          "title": "第149章：管理员也要写周报",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-149.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-149.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-149",
+          "isTest": false,
+          "wordCount": 3060
+        },
+        {
+          "id": "volume-06/chapter-150",
+          "title": "第150章：来自上层的访问申请",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-150.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-150.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-150",
+          "isTest": false,
+          "wordCount": 3004
         }
       ]
     }
@@ -3257,6 +3301,50 @@
       "pageUrl": "reader.html?chapter=volume-06/chapter-146",
       "isTest": false,
       "wordCount": 3048
+    },
+    {
+      "id": "volume-06/chapter-147",
+      "title": "第147章：受保护的自主项目",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-147.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-147.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-147",
+      "isTest": false,
+      "wordCount": 3055
+    },
+    {
+      "id": "volume-06/chapter-148",
+      "title": "第148章：每个人承担自己的部分",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-148.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-148.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-148",
+      "isTest": false,
+      "wordCount": 3027
+    },
+    {
+      "id": "volume-06/chapter-149",
+      "title": "第149章：管理员也要写周报",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-149.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-149.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-149",
+      "isTest": false,
+      "wordCount": 3060
+    },
+    {
+      "id": "volume-06/chapter-150",
+      "title": "第150章：来自上层的访问申请",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-150.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-150.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-150",
+      "isTest": false,
+      "wordCount": 3004
     }
   ]
 }
