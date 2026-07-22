@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "bookId": "earth-project-incident-report",
-  "updatedAt": "2026-07-21",
+  "updatedAt": "2026-07-22",
   "volumes": [
     {
       "id": "volume-01",
@@ -1427,6 +1427,61 @@
           "pageUrl": "reader.html?chapter=volume-06/chapter-126",
           "isTest": false,
           "wordCount": 3453
+        },
+        {
+          "id": "volume-06/chapter-127",
+          "title": "第127章：三阶段修复方案",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-127.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-127.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-127",
+          "isTest": false,
+          "wordCount": 3087
+        },
+        {
+          "id": "volume-06/chapter-128",
+          "title": "第128章：报告标题也能吵一天",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-128.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-128.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-128",
+          "isTest": false,
+          "wordCount": 3217
+        },
+        {
+          "id": "volume-06/chapter-129",
+          "title": "第129章：责任矩阵",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-129.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-129.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-129",
+          "isTest": false,
+          "wordCount": 3036
+        },
+        {
+          "id": "volume-06/chapter-130",
+          "title": "第130章：第一阶段：切断抽取",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-130.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-130.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-130",
+          "isTest": false,
+          "wordCount": 3211
+        },
+        {
+          "id": "volume-06/chapter-131",
+          "title": "第131章：海洋多出一股热流",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-131.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-131.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-131",
+          "isTest": false,
+          "wordCount": 3063
         }
       ]
     }
@@ -2817,6 +2872,61 @@
       "pageUrl": "reader.html?chapter=volume-06/chapter-126",
       "isTest": false,
       "wordCount": 3453
+    },
+    {
+      "id": "volume-06/chapter-127",
+      "title": "第127章：三阶段修复方案",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-127.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-127.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-127",
+      "isTest": false,
+      "wordCount": 3087
+    },
+    {
+      "id": "volume-06/chapter-128",
+      "title": "第128章：报告标题也能吵一天",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-128.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-128.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-128",
+      "isTest": false,
+      "wordCount": 3217
+    },
+    {
+      "id": "volume-06/chapter-129",
+      "title": "第129章：责任矩阵",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-129.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-129.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-129",
+      "isTest": false,
+      "wordCount": 3036
+    },
+    {
+      "id": "volume-06/chapter-130",
+      "title": "第130章：第一阶段：切断抽取",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-130.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-130.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-130",
+      "isTest": false,
+      "wordCount": 3211
+    },
+    {
+      "id": "volume-06/chapter-131",
+      "title": "第131章：海洋多出一股热流",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-131.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-131.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-131",
+      "isTest": false,
+      "wordCount": 3063
     }
   ]
 }
