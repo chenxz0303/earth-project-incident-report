@@ -1592,6 +1592,61 @@
           "pageUrl": "reader.html?chapter=volume-06/chapter-141",
           "isTest": false,
           "wordCount": 3040
+        },
+        {
+          "id": "volume-06/chapter-142",
+          "title": "第142章：没有预算点了",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-142.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-142.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-142",
+          "isTest": false,
+          "wordCount": 3028
+        },
+        {
+          "id": "volume-06/chapter-143",
+          "title": "第143章：样本开始修自己",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-143.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-143.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-143",
+          "isTest": false,
+          "wordCount": 3070
+        },
+        {
+          "id": "volume-06/chapter-144",
+          "title": "第144章：临时管理员",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-144.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-144.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-144",
+          "isTest": false,
+          "wordCount": 3082
+        },
+        {
+          "id": "volume-06/chapter-145",
+          "title": "第145章：不建议删除",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-145.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-145.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-145",
+          "isTest": false,
+          "wordCount": 3101
+        },
+        {
+          "id": "volume-06/chapter-146",
+          "title": "第146章：表决之前",
+          "volumeId": "volume-06",
+          "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+          "contentUrl": "chapters/volume-06/chapter-146.json",
+          "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-146.json",
+          "pageUrl": "reader.html?chapter=volume-06/chapter-146",
+          "isTest": false,
+          "wordCount": 3048
         }
       ]
     }
@@ -3147,6 +3202,61 @@
       "pageUrl": "reader.html?chapter=volume-06/chapter-141",
       "isTest": false,
       "wordCount": 3040
+    },
+    {
+      "id": "volume-06/chapter-142",
+      "title": "第142章：没有预算点了",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-142.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-142.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-142",
+      "isTest": false,
+      "wordCount": 3028
+    },
+    {
+      "id": "volume-06/chapter-143",
+      "title": "第143章：样本开始修自己",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-143.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-143.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-143",
+      "isTest": false,
+      "wordCount": 3070
+    },
+    {
+      "id": "volume-06/chapter-144",
+      "title": "第144章：临时管理员",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-144.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-144.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-144",
+      "isTest": false,
+      "wordCount": 3082
+    },
+    {
+      "id": "volume-06/chapter-145",
+      "title": "第145章：不建议删除",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-145.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-145.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-145",
+      "isTest": false,
+      "wordCount": 3101
+    },
+    {
+      "id": "volume-06/chapter-146",
+      "title": "第146章：表决之前",
+      "volumeId": "volume-06",
+      "volumeTitle": "第六卷（暂定）：最终事故调查报告",
+      "contentUrl": "chapters/volume-06/chapter-146.json",
+      "sourceUrl": "https://gitee.com/cxz0303/earth-project-incident-report/raw/main/chapters/volume-06/chapter-146.json",
+      "pageUrl": "reader.html?chapter=volume-06/chapter-146",
+      "isTest": false,
+      "wordCount": 3048
     }
   ]
 }
