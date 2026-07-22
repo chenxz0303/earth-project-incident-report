@@ -86,6 +86,7 @@ if (catalog) {
       }
     }
 
+    const formalTextRecords = [];
     for (const chapter of catalog.chapters) {
       if (!chapter.id || !chapter.title || !chapter.contentUrl || !chapter.pageUrl) {
         fail(`章节条目字段不完整：${JSON.stringify(chapter)}`);
@@ -123,12 +124,13 @@ if (catalog) {
           if (!chapter.title.startsWith(`第${chapterMatch[2]}章：`)) fail(`${chapter.contentUrl} 的正式标题缺少三位章节编号`);
         }
         const fullText = content.content.join("");
+        formalTextRecords.push({ chapter, content, fullText });
         const hanCharacters = [...fullText.matchAll(/[\p{Script=Han}]/gu)].length;
-        if (hanCharacters < 2800 || hanCharacters > 4500) {
-          fail(`${chapter.contentUrl} 的正文汉字数为 ${hanCharacters}，超出单章允许范围 2800—4500`);
+        if (hanCharacters < 3000 || hanCharacters > 4000) {
+          fail(`${chapter.contentUrl} 的正文汉字数为 ${hanCharacters}，超出单章允许范围 3000—4000`);
         }
-        if (!Number.isInteger(chapter.wordCount) || Math.abs(chapter.wordCount - hanCharacters) / hanCharacters > 0.15) {
-          fail(`${chapter.contentUrl} 的目录 wordCount 与正文汉字数偏差超过 15%`);
+        if (chapter.wordCount !== hanCharacters) {
+          fail(`${chapter.contentUrl} 的目录 wordCount 与正文汉字数不一致`);
         }
         const chineseNumberBeforeUnit = fullText.match(/[零一二三四五六七八九十百千万两点]+(?:吉帕|兆帕|毫米|摄氏度|秒|分钟|小时|楼)/u);
         if (chineseNumberBeforeUnit) {
@@ -145,6 +147,70 @@ if (catalog) {
     } else {
       if (testChapters.length !== 0) fail("正式连载开始后必须删除非正式测试章");
       if (formalChapters.length === 0) fail("连载或完结阶段必须至少包含 1 篇正式章节");
+    }
+
+    const forbiddenMetaPhrases = [
+      "上一章",
+      "下一章",
+      "本章",
+      "主角",
+      "笑点",
+      "和解剧情",
+      "全部剧情",
+      "规划里的猜测",
+      "伏笔记录",
+      "本书范围内",
+    ];
+    const paragraphOwners = new Map();
+    const hanWindowOwners = new Map();
+    for (const { chapter, content, fullText } of formalTextRecords) {
+      for (const phrase of forbiddenMetaPhrases) {
+        if (fullText.includes(phrase)) fail(`${chapter.contentUrl} 含有正文元话语：${phrase}`);
+      }
+
+      const localParagraphs = new Set();
+      for (const paragraph of content.content) {
+        if (paragraph.length >= 16) {
+          if (localParagraphs.has(paragraph)) fail(`${chapter.contentUrl} 存在重复段落`);
+          localParagraphs.add(paragraph);
+        }
+        if (paragraph.length >= 32) {
+          const owner = paragraphOwners.get(paragraph);
+          if (owner && owner !== chapter.id) fail(`${chapter.contentUrl} 与 ${owner} 存在跨章重复段落`);
+          paragraphOwners.set(paragraph, chapter.id);
+        }
+      }
+
+      const hanText = [...fullText.matchAll(/[\p{Script=Han}]/gu)].map((match) => match[0]).join("");
+      const localWindows = new Set();
+      for (let index = 0; index <= hanText.length - 32; index += 1) {
+        const window = hanText.slice(index, index + 32);
+        if (localWindows.has(window)) continue;
+        localWindows.add(window);
+        const owner = hanWindowOwners.get(window);
+        if (owner && owner !== chapter.id) fail(`${chapter.contentUrl} 与 ${owner} 存在跨章 32 汉字重复窗口`);
+        if (!owner) hanWindowOwners.set(window, chapter.id);
+      }
+    }
+
+    if (book?.publicationStage === "complete") {
+      const expectedChapterNumbers = Array.from({ length: 150 }, (_, index) => index + 1);
+      const actualChapterNumbers = formalTextRecords.map(({ content }) => content.chapterNumber);
+      if (JSON.stringify(actualChapterNumbers) !== JSON.stringify(expectedChapterNumbers)) {
+        fail("完结状态必须锁定第001—150章，且不得存在第151章");
+      }
+      if (catalog.volumes.length !== 6) fail("完结状态必须恰好包含6卷");
+      for (const volume of catalog.volumes) {
+        if (volume.title.includes("暂定")) fail(`完结卷名不得保留“暂定”：${volume.title}`);
+        for (const chapter of volume.chapters ?? []) {
+          if (chapter.volumeTitle !== volume.title) fail(`${chapter.id} 的卷名与所属分卷标题不一致`);
+        }
+      }
+      const finalRecord = formalTextRecords.at(-1);
+      if (finalRecord?.content.chapterNumber !== 150) fail("完结状态的最后章节必须是第150章");
+      if (finalRecord?.content.content.at(-1) !== "请先提交访问范围和责任边界。") {
+        fail("第150章最终句与锁定结局不一致");
+      }
     }
 
     const maintenanceFiles = [
